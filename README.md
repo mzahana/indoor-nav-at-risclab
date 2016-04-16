@@ -1,3 +1,3 @@
-# My Awesome Book
+# Indoor Navigation and Control at RISC Lab
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Some Intro.
