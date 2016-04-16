@@ -8,3 +8,4 @@
 * [USB-UART Module Kit](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G134111883934)
 * [WiFi Module 4](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141630348024)
 * [DC plug cable](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141440511056)
+* [Ethernet cable](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141637576518)
