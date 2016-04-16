@@ -6,6 +6,7 @@
    * [Camera calibration](camera_calibration.md)
    * [Motive setup](motive_setup.md)
    * [Creating Rigidbodies](creating_rigidbodies.md)
+   * Setup streaming application
 * [Quadrotor Control using Pixhawk](quadrotor_control_using_pixhawk.md)
    * [Pixhawk: hardware setup](pixhawk_hardware_setup.md)
    * [Pixhawk: firmware setup](pixhawk_software_setup.md)
