@@ -1,2 +1,2 @@
-# Off board control via serial communication
+# Offboard control via serial communication
 
