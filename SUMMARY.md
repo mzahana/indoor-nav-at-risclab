@@ -11,5 +11,5 @@
    * [Pixhawk: hardware setup](pixhawk_hardware_setup.md)
    * [Pixhawk: firmware setup](pixhawk_software_setup.md)
    * [Companion computer: ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
-   * Off board control via serial communication
+   * [Off board control via serial communication](off_board_control_via_serial_communication.md)
 
