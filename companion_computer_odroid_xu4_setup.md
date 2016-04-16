@@ -1,6 +1,10 @@
 # Companion computer: ODROID XU4 setup
 
 
+---
+
+
+
 ![Odroid XU4](ordroidxu4.jpg)
 ## List of components
 * [ODROID XU4](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G143452239825)
