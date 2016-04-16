@@ -6,4 +6,5 @@
 * [Quadrotor Control using Pixhawk](quadrotor_control_using_pixhawk.md)
    * [Pixhawk: hardware setup](pixhawk_hardware_setup.md)
    * [Pixhawk: software setup](pixhawk_software_setup.md)
+   * Companion computer: ODROID XU4 setup
 
