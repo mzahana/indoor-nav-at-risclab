@@ -1,4 +1,9 @@
 # Camera calibration
+
+
+---
+
+
 * Make sure that you remove any markers from the captured area before performing calibration.
 * Make sure that you use clean markers on the wanding stick.
 * The calibration invloves three main steps
