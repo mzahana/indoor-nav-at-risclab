@@ -7,7 +7,7 @@
    * [Motive setup](motive_setup.md)
    * [Creating Rigidbodies](creating_rigidbodies.md)
    * [Setup streaming application](setup_streaming_application.md)
-* [Quadrotor Control using Pixhawk](quadrotor_control_using_pixhawk.md)
+* [Pixhawk setup for Quadrotor control](quadrotor_control_using_pixhawk.md)
    * [Pixhawk: hardware setup](pixhawk_hardware_setup.md)
    * [Pixhawk: firmware setup](pixhawk_software_setup.md)
    * [Companion computer: ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
