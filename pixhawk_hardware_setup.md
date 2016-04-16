@@ -1,0 +1,2 @@
+# Pixhawk: hardware setup
+
