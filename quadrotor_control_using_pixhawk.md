@@ -1,6 +1,4 @@
-# Quadrotor Control using Pixhawk
-
-
+# Pixhawk Setup for Quadrotor Control
 
 ---
 
