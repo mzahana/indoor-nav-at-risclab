@@ -1,4 +1,4 @@
-# Offboard control via serial communication
+# Off-board control via serial communication
 
 
 ---
