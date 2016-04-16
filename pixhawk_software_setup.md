@@ -1,2 +1,2 @@
-# Pixhawk: software setup
+# Pixhawk: firmware setup
 
