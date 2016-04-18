@@ -23,8 +23,8 @@ The over all systems has 3 main elements:
 * ##Object to be tracked e.g. quadrotors, ground vehicles.
 Objects are considered rigid bodies in the ```mocap``` system. They can be stationary or moving. There are 2 main types of information a rigid body (object) has in the ```mocap```: position and orientation. Position is in meters. Orientation are *quatrenion* and can be converted to *Euler* angles, in radians.
 
-```mocap``` setup is discussed in [here](motion_capture_setup_optitrack.md).
+  ```mocap``` setup is discussed in [here](motion_capture_setup_optitrack.md).
 * ##Controller
 Controllers are PCs or single board computer (SBC) which are used to control the objects in the flying arena. When a PC is used to control an object, this referred as OFFBOARD control. Also a controller can be a flight controller that runs an autopilot firmware to control a vehicle (e.g. quadrotor).
 
-A companion computer is referred to an SBC that is connected to a flight controller. Usually, SBC is used to perform more sophisticated computations that the flight controller can not. In other words, the flight controller is designed for low-level tasks e.g. attitude control, motor driving, sensor data aquisition. However, the companion computer is used for high-level-control e.g. path planning, optimization.
+  A companion computer is referred to an SBC that is connected to a flight controller. Usually, SBC is used to perform more sophisticated computations that the flight controller can not. In other words, the flight controller is designed for low-level tasks e.g. attitude control, motor driving, sensor data aquisition. However, the companion computer is used for high-level-control e.g. path planning, optimization.
