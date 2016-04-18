@@ -21,5 +21,7 @@ The over all systems has 3 main elements:
   * Mocap PC which runs the ```mocap``` software, Motive, that provides the tracking features.
   
 * ##Object to be tracked e.g. quadrotors, ground vehicles.
-Objects are considered rigid bodies in the Mocap system. They can be stationary or moving. There are 2 main information a rigid body (object) has in the ```mocap```
-* ##Controller: controls the
+Objects are considered rigid bodies in the ```mocap``` system. They can be stationary or moving. There are 2 main types of information a rigid body (object) has in the ```mocap```: position and orientation. Position is in meters. Orientation are *quatrenion* and can be converted to *Euler* angles, in radians.
+
+```mocap``` setup is discussed in here.
+* ##Controller
