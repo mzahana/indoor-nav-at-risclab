@@ -2,3 +2,4 @@
 
 ---
 
+![Pixhawk](pixhawk-logo-view.jpg)
