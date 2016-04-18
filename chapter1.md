@@ -25,3 +25,6 @@ Objects are considered rigid bodies in the ```mocap``` system. They can be stati
 
 ```mocap``` setup is discussed in [here](motion_capture_setup_optitrack.md).
 * ##Controller
+Controllers are PCs or single board computer (SBC) which are used to control the objects in the flying arena. When a PC is used to control an object, this referred as OFFBOARD control. Also a controller can be a flight controller that runs an autopilot firmware to control a vehicle (e.g. quadrotor).
+
+A companion computer is referred to an SBC that is connected to a flight controller. Usually it is used to perform more sophisticated computations that the flight controller can not. In other words, the flight controller is designed for low-level tasks (e.g. attitude control, motor driving, sensor data aquisition ). Whereas, the companion computer is used for high-level control (e.g. path planning, optimization)
