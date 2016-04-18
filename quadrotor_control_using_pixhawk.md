@@ -11,4 +11,4 @@
 
 See above link for the features.
 
-In this guide, we are going to go through the hardware/software steps of setting up the Pixhawk to fly a quadrotor, inside the flying arena.
+In this guide, we are going to learn how to setup Pixhawk for indoor fly.
