@@ -16,3 +16,4 @@
 * ESCs
 * Motors
 * Propellers
+* LiPo battery
