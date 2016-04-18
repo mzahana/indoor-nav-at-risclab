@@ -3,7 +3,7 @@
 
 
 ---
-<img src="OptiStream.PNG" alt="OptiStream" style="width: 350px;"/>
+<img src="OptiStream.PNG" alt="OptiStream" style="width: 350px;" algin="middle"/>
 
 
 
