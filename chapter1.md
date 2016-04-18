@@ -29,4 +29,4 @@ Controllers are PCs or single board computer (SBC) which are used to control the
 
   A companion computer is referred to an SBC that is connected to a flight controller. Usually, SBC is used to perform more sophisticated/high computations that the flight controller can not. In other words, the flight controller is designed for low-level tasks e.g. attitude control, motor driving, sensor data aquisition. However, the companion computer is used for high-level-control e.g. path planning, optimization.
   
-  In this guide, a special attention is given to the use of **Pixhawk** flight controller and **ODROID** SBC, as a companion computer
+  In this guide, a special attention is given to the use of **[Pixhawk](quadrotor_control_using_pixhawk.md)** flight controller and **ODROID** SBC, as a companion computer
