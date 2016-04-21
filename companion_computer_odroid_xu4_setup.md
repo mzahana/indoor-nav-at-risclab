@@ -17,5 +17,5 @@
 
 ## Setup Ubuntu server
 ### Flashing Ubuntu image
-### Account setup
+### User account setup
 ### Installing packages
