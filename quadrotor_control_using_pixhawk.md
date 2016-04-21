@@ -2,7 +2,8 @@
 
 ---
 
-![Pixhawk](pixhawk-logo-view.jpg)
+<div style="text-align: center;"><img src="pixhawk-logo-view.jpg" alt="OptiStream" style="width: 250px;"/>
+
 [Link to the Pixhawk page](https://pixhawk.org/modules/pixhawk)
 
 ##Pixhawk Autopilot
