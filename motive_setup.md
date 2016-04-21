@@ -3,6 +3,9 @@
 
 ---
 
+In this section, we mainly want to learn how to 
+* Create rigid bodies that represent objects to be tracked (e.g. quadrotor)
+* Activate the streaming of rigid bodies information (e.g. position orientation)
 
 Make sure that you have clean markers.
 * Markers should not be placed in symmetric shape.
