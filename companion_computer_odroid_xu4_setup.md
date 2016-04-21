@@ -6,6 +6,7 @@
 
 
 <div style="text-align: center;"><img src="odroidxu4.jpg" alt="odroid" style="width: 250px;"/>
+
 ## List of components
 * [ODROID XU4](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G143452239825)
 * [16GB eMMc module](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G145628174287)
