@@ -149,3 +149,7 @@ set netmask:
 ```sh
 set ip netmask <netmask address>
 ```
+set local port. You can leave the default (2000)
+```sh
+set ip localport 2000
+```
