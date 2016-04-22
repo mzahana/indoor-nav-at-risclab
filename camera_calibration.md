@@ -14,4 +14,7 @@
 * Follow [this guide](http://wiki.optitrack.com/index.php?title=Calibration) in order to perform the calibration 
 * It is recommended to perform camera calibration on weekly basis, or every couple of weeks.
 
+Calibration video:
+
+
 
