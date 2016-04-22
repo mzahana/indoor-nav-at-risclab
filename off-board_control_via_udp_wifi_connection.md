@@ -161,8 +161,10 @@ save
 reboot
 ```
 Make sure that the device can join the WiFi netowrk. Log in to the device using (e.g. `screen` command), and type **\$\$\$**. Then join the network by typing `join <network ssid>`
+
+Once successful, you can now go to next step to set higher baud rates.
 #### Configure higher baud rates
 <div class="error">
 DO NOT set high baud rates while you are on serial (e.g. 921600), because you will not be able to log in again from the serial consol. You can set higher baud rate after you log in to the Wifly module via WiFi, using `telnet` command in Mac OS
 </div>
-To log in to the Wifly device via WiFi
+First make sure your computer is connected to the same router as the Wifly device
