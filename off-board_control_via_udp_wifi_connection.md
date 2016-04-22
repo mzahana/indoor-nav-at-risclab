@@ -143,7 +143,7 @@ your IP first 3 numbers (e.g. 192.168.1.\*) should bethe same as your router's f
 
 set IP gateway (usually this is your router IP). You can set up dynamic IP firt, and then connect to the WiFi. Then, on the WiFi module command line type `get ip` to see the *gateway* and the *netmask*. Do the static IP address and set the *gateway* and *netmask* as follows,
 ```sh
-set ip gateway <routers ip address>
+set ip gateway <router ip address>
 ```
 set netmask:
 ```sh
