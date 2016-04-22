@@ -16,3 +16,8 @@ Required:
 Tip: To obtain MatMav, contact matmav.toolbox@gmail.com 
 {% endhint %}
 
+In this tutorial, *TELEM2* is going to be used to connect the WiFi module. However, *TELEM1* can be used too, but will require further configuration steps.
+
+{% hint style='tip' %}
+Tip: It is recommended to set the baud rate of TELEM2 to 921600
+{% endhint %}
