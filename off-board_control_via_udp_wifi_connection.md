@@ -55,6 +55,10 @@ You can change the serial baudrate by
 set u b 57600
 ```
 
+<div class="warning">
+Make sure that you use the new baud rate to connect again to the device via serial port.
+</div>
+
 ### WiFi setup
 Set authentification to WPA2-PSK only:
 ```sh
