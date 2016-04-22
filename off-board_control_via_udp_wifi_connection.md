@@ -177,3 +177,8 @@ set high baudrate
 ```sh
 set u b 921600
 ```
+save and reboot
+```sh
+save
+reboot
+```
