@@ -78,5 +78,5 @@ set wlan phrase <password>
 ```
 ### IP setup
 <div class="info">
-It is recommended to use static IP and disable the DHCP mode on your router, for more reliable and less latency communication.
+Although you can use dynamic IPs, it is recommended to use static IP and disable the DHCP mode on your router, for more reliable and less latency communication.
 </div>
