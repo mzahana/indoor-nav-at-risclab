@@ -87,3 +87,7 @@ Enable DHCP on each boot:
 ```sh
 set ip dhcp 1
 ```
+Set remote port:
+```sh
+set ip remote 14550
+```
