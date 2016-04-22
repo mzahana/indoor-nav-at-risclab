@@ -93,7 +93,7 @@ set ip remote 14550
 ```
 set remote hos IP (IP of your PC):
 ```sh
-set ip host 192.168.1.10
+set ip host 192.168.1.100
 ```
 #### Test and save configurations
 join the WiFi
