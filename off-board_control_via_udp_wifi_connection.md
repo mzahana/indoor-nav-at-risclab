@@ -172,3 +172,8 @@ First make sure your computer is connected to the same router as the Wifly devic
 telnet <wifly ip address> <wifly localport>
 ```
 then type **\$\$\$**, and hit **ENTER**
+
+set high baudrate
+```sh
+set u b 921600
+```
