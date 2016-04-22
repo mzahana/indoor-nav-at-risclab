@@ -4,6 +4,6 @@
 
 ---
 
-{% hint style='danger' %}
+{% hint style='working' %}
 Important info: this note needs to be highlighted
 {% endhint %}
