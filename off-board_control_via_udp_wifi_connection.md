@@ -100,3 +100,7 @@ join the WiFi
 ```sh
 join <WiFi ssid>
 ```
+it it connects, it will show:
+```sh
+Asscoiated!
+```
