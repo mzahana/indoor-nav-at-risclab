@@ -80,3 +80,10 @@ set wlan phrase <password>
 <div class="info">
 Although you can use dynamic IPs, it is recommended to use static IP and disable the DHCP mode on your router, for more reliable and less latency communication.
 </div>
+
+This guide assumes UDP communication to a ground control station computer on IP 192.168.10.200, port 14550 (QGroundControl default port).
+#### set dynamic IP
+
+```sh
+set ip dhcp 1
+```
