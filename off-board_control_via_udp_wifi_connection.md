@@ -72,3 +72,7 @@ set  wireless name, SSID
 ```sh
 set wlan ssid <your wifi ssid>
 ```
+set WiFi password
+```sh
+set wlan phrase <password>
+```
