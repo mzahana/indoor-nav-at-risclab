@@ -83,7 +83,7 @@ Although you can use dynamic IPs, it is recommended to use static IP and disable
 
 This guide assumes UDP communication to a ground control station computer on IP 192.168.10.200, port 14550 (QGroundControl default port).
 #### set dynamic IP
-
+Enable DHCP on each boot:
 ```sh
 set ip dhcp 1
 ```
