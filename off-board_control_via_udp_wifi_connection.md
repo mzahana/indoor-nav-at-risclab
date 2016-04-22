@@ -154,3 +154,8 @@ set local port. You can leave the default (2000)
 set ip localport 2000
 ```
 set the remote host IP and remote port as before.
+
+#### Configure higher baud rates
+<div class="error">
+DO NOT set high baud rates while you are on serial (e.g. 921600), because you will not be able to log in again from the serial consol. You can set higher baud rate after you log in to the Wifly module via WiFi, using `telnet` command in Mac OS
+</div>
