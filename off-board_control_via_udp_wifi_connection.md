@@ -47,4 +47,4 @@ type
 ```sh
 scan
 ```
-to make sure that the device is operational
+to make sure that the device is operational. If there are networks, it should be listed.
