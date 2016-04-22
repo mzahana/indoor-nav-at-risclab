@@ -76,3 +76,7 @@ set WiFi password
 ```sh
 set wlan phrase <password>
 ```
+### IP setup
+<div class="info">
+It is recommended to use static IP and disable the DHCP mode on your router, for more reliable and less latency communication.
+</div>
