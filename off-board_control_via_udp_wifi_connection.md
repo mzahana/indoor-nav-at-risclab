@@ -127,3 +127,7 @@ serial settings:
 get u
 ```
 #### Static IP
+Disable DHCP mode
+```sh
+set ip dhcp 0
+```
