@@ -167,4 +167,7 @@ Once successful, you can now go to next step to set higher baud rates.
 <div class="error">
 DO NOT set high baud rates while you are on serial (e.g. 921600), because you will not be able to log in again from the serial consol. You can set higher baud rate after you log in to the Wifly module via WiFi, using `telnet` command in Mac OS
 </div>
-First make sure your computer is connected to the same router as the Wifly device
+First make sure your computer is connected to the same router as the Wifly device. Open a terminal and type,
+```sh
+telnet <wifly ip address> <wifly localport>
+```
