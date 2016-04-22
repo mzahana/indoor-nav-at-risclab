@@ -48,3 +48,8 @@ type
 scan
 ```
 to make sure that the device is operational. If there are networks, it should be listed.
+
+You can change the serial baudrate by
+```sh
+set u b 57600
+```
