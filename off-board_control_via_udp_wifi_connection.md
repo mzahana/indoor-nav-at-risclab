@@ -13,7 +13,7 @@ Required:
 * *MatMav* toolbox: to run offboard control from *MATLAB*
 
 <div class="info">
-Tip: To obtain MatMav, contact matmav.toolbox@gmail.com 
+To obtain MatMav, contact matmav.toolbox@gmail.com 
 <div>
 
 In this tutorial, *TELEM2* is going to be used to connect the WiFi module. However, *TELEM1* can be used too, but will require further configuration steps.
