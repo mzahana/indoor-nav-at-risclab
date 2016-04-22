@@ -145,3 +145,7 @@ set IP gateway (usually this is your router IP). You can set up dynamic IP firt,
 ```sh
 set ip gateway <routers ip address>
 ```
+set netmask:
+```sh
+set ip netmask <netmask address>
+```
