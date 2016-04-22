@@ -68,3 +68,7 @@ Tell the module to auto-join the network when powered on:
 ```sh
 set wlan join 1
 ```
+set  wireless name, SSID
+```sh
+set wlan ssid <your wifi ssid>
+```
