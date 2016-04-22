@@ -171,3 +171,4 @@ First make sure your computer is connected to the same router as the Wifly devic
 ```sh
 telnet <wifly ip address> <wifly localport>
 ```
+then type **\$\$\$**, and hit **ENTER**
