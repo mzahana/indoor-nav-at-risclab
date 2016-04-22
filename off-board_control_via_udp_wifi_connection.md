@@ -19,7 +19,7 @@ To obtain MatMav, contact matmav.toolbox@gmail.com
 In this tutorial, *TELEM2* is going to be used to connect the WiFi module at baud rate 921600. *TELEM1* can be used too, but will require further configuration steps, but you can stil use it direectly at baud 57600 (which is its default).
 
 <div class="info">
-It is recommended to set the baud rate of TELEM2 to 921600 for faster data exchange, and less latency.
+It is recommended to set the baud rate of TELEM2 (or TELEM1) to 921600 for faster data exchange, and less latency.
 </div>
 
 ## Pixhawk TELEM setup
