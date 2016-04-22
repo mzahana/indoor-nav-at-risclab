@@ -153,4 +153,4 @@ set local port. You can leave the default (2000)
 ```sh
 set ip localport 2000
 ```
-set the host ip and port as before.
+set the host IP and rempte port as before.
