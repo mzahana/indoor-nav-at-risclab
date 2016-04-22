@@ -14,7 +14,7 @@ Required:
 
 <div class="info">
 To obtain MatMav, contact matmav.toolbox@gmail.com 
-<div>
+</div>
 
 In this tutorial, *TELEM2* is going to be used to connect the WiFi module. However, *TELEM1* can be used too, but will require further configuration steps.
 
