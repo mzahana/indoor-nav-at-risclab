@@ -12,5 +12,5 @@
 * [Companion computer: ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [OFFBOARD Control Setup](offboard_control_setup.md)
    * [Off-board serial interface](off_board_control_via_serial_communication.md)
-   * [off-board WiFi interfce](off-board_control_via_udp_wifi_connection.md)
+   * [off-board WiFi interface](off-board_control_via_udp_wifi_connection.md)
 
