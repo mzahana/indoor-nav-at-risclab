@@ -87,6 +87,10 @@ Enable DHCP on each boot (for dynamic IP):
 ```sh
 set ip dhcp 1
 ```
+set IP protocol
+```sh
+set ip protocol 3
+```
 Set remote port:
 ```sh
 set ip remote 14550
