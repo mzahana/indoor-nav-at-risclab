@@ -182,5 +182,6 @@ save and reboot
 save
 reboot
 ```
-Finally, attach the Wifly device to an XBee explorer requlated board, similar to [this](https://www.sparkfun.com/products/11373) 
+Finally, attach the Wifly device to an XBee explorer requlated board, similar to [this](https://www.sparkfun.com/products/11373),and connect it to *TELEM2*.
+
 Now you are ready to communicate with the *Pixhawk* via WiFi!
