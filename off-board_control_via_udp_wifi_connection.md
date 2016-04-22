@@ -91,7 +91,7 @@ Set remote port:
 ```sh
 set ip remote 14550
 ```
-set remote hos IP:
+set remote hos IP (set the IP of your PC):
 ```sh
 set ip hos 192.168.1.110
 ```
