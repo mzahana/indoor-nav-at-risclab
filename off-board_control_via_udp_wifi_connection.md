@@ -42,3 +42,9 @@ screen /dev/tty.usbserial-FTFABC 9600 8N1
 ls /dev/tty*
 ```
 Aafter you login, type **$$$** and hit **ENTER**
+
+type
+```sh
+scan
+```
+to make sure that the device is operational
