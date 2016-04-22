@@ -1,4 +1,4 @@
-# off-board control via UDP (WiFi) connection
+# Off-board control via UDP (WiFi) connection
 
 
 
