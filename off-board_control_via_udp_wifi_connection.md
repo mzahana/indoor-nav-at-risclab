@@ -26,3 +26,5 @@ It is recommended to set the baud rate of TELEM2 to 921600 for faster data excha
 To set the baude rate of *TELEM2* to 921600, connect *Pixhawk* to *Qgroundcontrol*. Go to the *System* tab. Change the *SYS_COMP* parameter to use companion with 921600 baudrate. Restart *Pixhawk* to take effect.
 
 ## WiFi module setup
+Official Roving Network documentation
+[Reference Manual](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Wireless/WiFi/WiFly-RN-UM.pdf)
