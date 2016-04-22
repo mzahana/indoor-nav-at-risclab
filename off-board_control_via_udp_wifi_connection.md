@@ -28,7 +28,7 @@ To set the baude rate of *TELEM2* to 921600, connect *Pixhawk* to *Qgroundcontro
 ## WiFi module setup
 
 Official Roving Network documentation
-[Reference Manual](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Wireless/WiFi/WiFly-RN-UM.pdf)
+* [Reference Manual](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Wireless/WiFi/WiFly-RN-UM.pdf)
 
 Connect the WiFi module to the XBee explorer USB board and connect it to the computer. You will need to use a serial terminal. For Mac, use the Mac terminal. For Windows it is recommended to use *TerTerm*.
 
