@@ -182,3 +182,5 @@ save and reboot
 save
 reboot
 ```
+
+Now you are ready to communicate with the *Pixhawk* via WiFi!
