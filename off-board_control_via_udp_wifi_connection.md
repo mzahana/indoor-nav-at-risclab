@@ -41,3 +41,4 @@ screen /dev/tty.usbserial-FTFABC 9600 8N1
 ```sh
 ls /dev/tty*
 ```
+Aafter you login, type **$$$** and hit **ENTER**
