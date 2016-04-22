@@ -104,3 +104,8 @@ it it connects, it will show:
 ```sh
 Asscoiated!
 ```
+save and reboot
+```sh
+save
+reboot
+```
