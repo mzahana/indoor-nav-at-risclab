@@ -122,7 +122,7 @@ wifi settings:
 ```sh
 get wlan
 ```
-serial settings
+serial settings:
 ```sh
 get u
 ```
