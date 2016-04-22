@@ -141,7 +141,7 @@ set ip address <choose ip>
 ```
 your IP first 3 numbers (e.g. 192.168.1.\*) should bethe same as your router's first three numbers
 
-set IP gateway (usually this is your router IP). You can set up dynamic IP firt, and then connect to the WiFi. Then, on the WiFi module command line type `get ip` to see the *gateway* and the *netmask*. Do the static IP address and set the *gateway* and *netmask* as follows,
+set IP gateway (usually this is your router's IP). You can firdt set up dynamic IP, and then connect to the WiFi. Then, on the WiFi module command line type `get ip` to see the *gateway* and the *netmask*. Do the static IP address and set the *gateway* and *netmask* as follows,
 ```sh
 set ip gateway <router ip address>
 ```
