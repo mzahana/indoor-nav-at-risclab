@@ -64,3 +64,7 @@ set auto channel scan
 ```sh
 set wlan channel 0
 ```
+Tell the module to auto-join the network when powered on:
+```sh
+set wlan join 1
+```
