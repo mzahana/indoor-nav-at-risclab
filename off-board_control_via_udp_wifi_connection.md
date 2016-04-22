@@ -14,6 +14,3 @@ Required:
 Tip: To obtain MatMav, contact matmav.toolbox@gmail.com 
 {% endhint %}
 
-take a look at this video:
-
-{% youtube %}https://www.youtube.com/watch?v=91VGmdSlbo4{% endyoutube %}
