@@ -21,4 +21,5 @@ In this tutorial, *TELEM2* is going to be used to connect the WiFi module. Howev
 <div class="info">
 It is recommended to set the baud rate of TELEM2 to 921600 for faster data exchange, and less latency.
 </div>
-To set the baude **rate** 
+
+To set the baude rate of *TELEM2* to 921600, connect *Pixhawk* to *Qgroundcontrol*. Go to the *System* tab. Change the *SYS_COMP* parameter to use companon with 921600 baudrate.
