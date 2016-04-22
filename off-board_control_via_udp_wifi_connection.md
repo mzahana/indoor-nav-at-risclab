@@ -109,3 +109,20 @@ save and reboot
 save
 reboot
 ```
+<div class="error">
+Make sure that you save your settings, otherwise it will be lost
+</div>
+
+To check the settings current yon the device,
+IP settings:
+```sh
+get ip
+```
+wifi settings:
+```sh
+get wlan
+```
+serial settings
+```sh
+get u
+```
