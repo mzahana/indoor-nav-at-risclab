@@ -6,4 +6,6 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
     }
+    
+    "plugins": ["plugin-hints"]
 }
