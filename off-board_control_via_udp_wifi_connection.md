@@ -126,3 +126,4 @@ serial settings:
 ```sh
 get u
 ```
+#### Static IP
