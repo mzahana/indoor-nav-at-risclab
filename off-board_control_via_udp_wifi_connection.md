@@ -3,7 +3,8 @@
 
 
 ---
+In this section, we learn how to communicate with *Pixhawk* via WiFi
 
 {% hint style='tip' %}
-Important info: this note needs to be highlighted
+Important tip: 
 {% endhint %}
