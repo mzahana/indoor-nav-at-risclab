@@ -87,7 +87,7 @@ Enable DHCP on each boot (for dynamic IP):
 ```sh
 set ip dhcp 1
 ```
-set IP protocol
+set IP protocol (UDP)
 ```sh
 set ip protocol 3
 ```
