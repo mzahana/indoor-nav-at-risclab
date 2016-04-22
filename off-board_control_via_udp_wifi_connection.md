@@ -96,3 +96,7 @@ set remote hos IP (IP of your PC):
 set ip host 192.168.1.110
 ```
 #### Test and save configurations
+join the WiFi
+```sh
+join <WiFi ssid>
+```
