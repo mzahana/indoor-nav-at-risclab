@@ -60,3 +60,7 @@ Set authentification to WPA2-PSK only:
 ```sh
 set wlan auth 3
 ```
+set auto channel scan
+```sh
+set wlan channel 0
+```
