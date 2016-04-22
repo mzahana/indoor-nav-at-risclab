@@ -12,9 +12,9 @@ Required:
 * [XBee explorer regulated](https://www.sparkfun.com/products/11373): to interface with *Pixhawk*
 * *MatMav* toolbox: to run offboard control from *MATLAB*
 
-{% hint style='tip' %}
+<div class="info">
 Tip: To obtain MatMav, contact matmav.toolbox@gmail.com 
-{% endhint %}
+<div>
 
 In this tutorial, *TELEM2* is going to be used to connect the WiFi module. However, *TELEM1* can be used too, but will require further configuration steps.
 
