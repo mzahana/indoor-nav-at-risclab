@@ -135,3 +135,8 @@ Disable DHCP mode
 ```sh
 set ip dhcp 0
 ```
+set the WiFi module's IP address
+```sh
+set ip address <choose ip>
+```
+your IP first 3 numbers (e.g. 192.168.1.\*) should bethe same as your router's first three numbers
