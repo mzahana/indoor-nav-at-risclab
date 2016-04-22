@@ -1,3 +1,3 @@
 # Off-board control
 
-<div class="error"> <p><p>Error</p></p> message1</div>
+<div class="error"> **caution** message1</div>
