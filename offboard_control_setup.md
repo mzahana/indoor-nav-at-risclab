@@ -10,4 +10,4 @@ In general, sending high-level commands is done off-board (board here refers to 
 
 In general, executing such offboard tasks are not feasible due to the limited resources on *Pixhwak*. Therefore, more powerfull computers are used.
 
-Offboard computers can be single board computer (or SBC in brief), e.g. ODROID XU4. Or, it can be a fully loaded workstaton, desktop, or laptop.
+Offboard computers can be single board computer (or SBC in brief), e.g. ODROID XU4. Or, it can be a fully loaded workstaton, desktop, or laptop
