@@ -8,7 +8,7 @@ In this section, we learn how to install and use the streaming application, *Opt
 <div style="text-align: center;"><img src="OptiStream.PNG" alt="OptiStream" style="width: 250px;"> </img> </div>
 
 Requirements:
-* *MatMav* toolbox: to run offboard control from *MATLAB*
+* *OptiStream* Windows Aplication.
 
 <div class="info">
 To obtain OptiStream, contact matmav.toolbox@gmail.com 
