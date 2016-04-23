@@ -3,7 +3,7 @@
 
 
 ---
-In this section, we learn how to communicate with *Pixhawk* via WiFi.
+In this section, we learn how to setup a WiFi communication with *Pixhawk*.
 
 Required:
 * *Pixhawk*: calibrated and ready to fly
