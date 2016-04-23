@@ -5,7 +5,7 @@
 ---
 In this section, we learn how to setup a WiFi communication with *Pixhawk*.
 
-Required:
+Requirement:
 * *Pixhawk*: calibrated and ready to fly
 * WiFi module: [RN-XV WiFly Module - Wire Antenna](https://www.sparkfun.com/products/10822)
 * [XBee explorer USB](https://www.sparkfun.com/products/11812): to configure WiFi module via PC
