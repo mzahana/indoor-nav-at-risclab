@@ -3,7 +3,7 @@
 
 ---
 <div class="warning">
-NOTE: This is guide is guide is under active development.
+NOTE: This is guide is under active development.
 </div>
 
 This guide provides the main elements to understand, setup, and perform indoor navigation & control experiments of unmanned vehicles. This is mainly intended for the [Robotics, Intelligent Systems and Control](https://risc.kaust.edu.sa/Pages/Home.aspx) Lab users, at [KAUST](http://www.kaust.edu.sa).
