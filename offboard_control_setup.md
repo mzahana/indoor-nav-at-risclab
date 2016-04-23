@@ -1,4 +1,4 @@
-# OFFBOARD Control Setup
+# Pixhawk OFFBOARD Control Setup
 
 
 
