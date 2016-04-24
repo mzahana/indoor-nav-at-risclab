@@ -1,6 +1,5 @@
 # Indoor Navigation and Control at RISC Lab
 
-
 ---
 <div class="warning">
 NOTE: This is guide is under active development.
