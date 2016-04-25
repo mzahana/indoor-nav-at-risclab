@@ -75,6 +75,10 @@ set WiFi password
 ```sh
 set wlan phrase <password>
 ```
+Enable continous scanning
+```sh
+set wlan linkmon 5
+```
 ### IP setup
 <div class="info">
 Although you can use dynamic IPs, it is recommended to use static IP and disable the DHCP mode on your router, for more reliable and less latency communication.
