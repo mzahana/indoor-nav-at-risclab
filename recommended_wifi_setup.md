@@ -1,0 +1,2 @@
+# Recommended WiFi setup
+
