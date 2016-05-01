@@ -3,6 +3,12 @@
 
 
 ---
+
+<div class="error">
+This setup is not recommended for multi-Pixhawk communication. The WiFi modules used in this setup suffer from continues disconnection when multiple modules are in use. For more reliable WiFi communication use the ESP8266 setup guide
+</div>
+
+
 In this section, we learn how to setup a WiFi communication with *Pixhawk* using the *RN-XV Wifly* module.
 
 Requirements:
@@ -82,7 +88,7 @@ set wlan linkmon 5
 ### IP setup
 
 This guide assumes UDP communication to a ground control station computer on IP 192.168.1.100, port 14550 (QGroundControl default port).
-#### Set dynamic IP
+#### Set dynamic IP (recommended)
 Enable DHCP on each boot (for dynamic IP):
 ```sh
 set ip dhcp 1
