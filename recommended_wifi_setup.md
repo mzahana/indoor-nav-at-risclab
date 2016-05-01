@@ -23,3 +23,5 @@ ESP8266 CAN NOT tolerate 5V VCC.IT KILLS IT!
 It uses 3.3V for all VCC and TX/RX signals.
 The VCC from TELEM1/TELEM2 on Pixhawk provides 5V. So, Make sure to either use Logic-Level converter or the requlated pins of the XBee breakout board mentioned above.
 </div>
+
+![](esp8266_pinout.png)
