@@ -80,9 +80,6 @@ Enable continous scanning
 set wlan linkmon 5
 ```
 ### IP setup
-<div class="info">
-Although you can use dynamic IPs, it is recommended to use static IP and disable the DHCP mode on your router, for more reliable and less latency communication.
-</div>
 
 This guide assumes UDP communication to a ground control station computer on IP 192.168.1.100, port 14550 (QGroundControl default port).
 #### Set dynamic IP
