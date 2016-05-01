@@ -1,7 +1,4 @@
 # Off-board WiFi interface
-
-
-
 ---
 
 <div class="error">
