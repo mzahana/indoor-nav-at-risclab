@@ -3,13 +3,13 @@
 
 
 ---
-In this section, we learn how to setup a WiFi communication with *Pixhawk*.
+In this section, we learn how to setup a WiFi communication with *Pixhawk* using the *RN-XV Wifly* module.
 
 Requirements:
 * *Pixhawk*: calibrated and ready to fly
 * WiFi module: [RN-XV WiFly Module - Wire Antenna](https://www.sparkfun.com/products/10822)
 * [XBee explorer USB](https://www.sparkfun.com/products/11812): to configure WiFi module via PC
-* [XBee explorer regulated](https://www.sparkfun.com/products/11373): to interface with *Pixhawk*
+* [Xbee breakout board](http://www.robotshop.com/en/droids-xbee-simple-board.html): to interface with *Pixhawk*
 
 In this tutorial, *TELEM2* is going to be used to connect the WiFi module at baud rate 921600. *TELEM1* can be used too, but will require further configuration steps, but you can stil use it direectly at baud 57600 (which is its default).
 
