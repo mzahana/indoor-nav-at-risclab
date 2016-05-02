@@ -12,6 +12,7 @@ Required:
 
 <div class="info">
 Follow the [this guide](https://pixhawk.org/peripherals/8266) to setup the ESP8266.
+<a href="https://pixhawk.org/peripherals/8266">this guide</a>
 </div>
 NOTES:
 * Make sure to solder *VCC* and *CH_PD* pins togehter.
