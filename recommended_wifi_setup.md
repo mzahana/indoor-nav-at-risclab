@@ -10,9 +10,9 @@ Required:
 * Headers: [1](http://www.robotshop.com/en/sfe-right-angle-pin-headers.html), [2](http://www.robotshop.com/en/break-away-female-headers.html) ,[3](http://www.robotshop.com/en/arduino-shield-stacking-headers.html)
 * [FTDI adapter](http://www.robotshop.com/en/ftdi-basic-breakout-3-3v-6-pin-header.html) to flash firmware
 
-
+<div class="info">
 Follow the [this guide](https://pixhawk.org/peripherals/8266) to setup the ESP8266.
-
+</div>
 NOTES:
 * Make sure to solder *VCC* and *CH_PD* pins togehter.
 * To put the module in setup mode, connect *GPIO_0* to ground before powering up the device.
