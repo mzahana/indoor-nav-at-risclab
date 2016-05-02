@@ -11,8 +11,10 @@ Required:
 * [FTDI adapter](http://www.robotshop.com/en/ftdi-basic-breakout-3-3v-6-pin-header.html) to flash firmware
 
 <div class="info">
-Follow the [this guide](https://pixhawk.org/peripherals/8266) to setup the ESP8266.
+Follow the
 <a href="https://pixhawk.org/peripherals/8266">this guide</a>
+to setup the ESP8266.
+
 </div>
 NOTES:
 * Make sure to solder *VCC* and *CH_PD* pins togehter.
