@@ -16,10 +16,11 @@ Follow the
 to setup the ESP8266.
 
 </div>
+
 NOTES:
-* Make sure to solder *VCC* and *CH_PD* pins togehter.
-* To put the module in setup mode, connect *GPIO_0* to ground before powering up the device.
-* For normal, operation, DO NOT connect *GPIO_0*
+  * Make sure to solder *VCC* and *CH_PD* pins togehter.
+  * To put the module in setup mode, connect *GPIO_0* to ground before powering up the device.
+  * For normal, operation, DO NOT connect *GPIO_0*
 
 <div class="error">
 ESP8266 CAN NOT tolerate 5V VCC.IT KILLS IT!
