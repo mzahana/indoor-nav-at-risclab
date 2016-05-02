@@ -29,3 +29,4 @@ The VCC from TELEM1/TELEM2 on Pixhawk provides 5V. So, Make sure to either use L
 </div>
 
 ![](esp8266_pinout.png)
+![](990001_layout.jpg)
