@@ -18,7 +18,7 @@ to setup the ESP8266.
 </div>
 
 NOTES:
-  * Make sure to solder *VCC* and *CH_PD* pins togehter.
+  * Make sure to solder *VCC* and *CH_PD* pins togehter. See below picture.
   * To put the module in setup mode, connect *GPIO_0* to ground before powering up the device.
   * For normal, operation, DO NOT connect *GPIO_0*
 
