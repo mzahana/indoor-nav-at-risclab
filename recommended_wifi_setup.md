@@ -30,4 +30,7 @@ Now you are connected to Pixhawk via WiFi. The Wifi Module is in *Access point* 
 * in QGC, while you are connected to *Pixracer* network, go to the **WiFi Bridge** tab on the left and choose *station mode*.
 * Write the desired network name and password in the appropriate field.
 * Restart Pixhawk, and the WiFi module should try to connect to your local network.
+* Now, you can connect your machine to the same local network, then connect to Pixhawk from QGC via UDP.
+
+Enjoy!
 
