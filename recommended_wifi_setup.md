@@ -21,5 +21,13 @@ to setup the ESP8266.
 
 Connect the module to the Pixhawk as follows.
 ![](pixhawk_telem_cable.png)
+* **NOTE:**You first need to make sure that you configured `TELEM2` port to be used for ESP link with baud 921600.
+* Now you can power-on the Pixhawk with the WiFi module connected.
+* Then, search for the *Pixracer* WiFi netwrok. Connect to that network with the password *pixracer*.
+* Open QgroundControl and connect using UDP connection.
 
+Now you are connected to Pixhawk via WiFi. The Wifi Module is in Access point mode by default, and it creates it's own WifI network (Pixracer). If you wish to connect to your own local WiFi network.
+* In QGC, go to the **WiFi Bridge** tab on the left and choose *station mode*.
+* Write the desired network name and password in the appropriate field.
+* Restart Pixhawk, and the WiFi module should try
 
