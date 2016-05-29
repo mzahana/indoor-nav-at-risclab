@@ -18,4 +18,7 @@ to setup the ESP8266.
 
 **NOTE**: Use `platformio run -e esp01_1m -t upload` to upload the firmware to the board.
 
+Connect the module to the Pixhawk as follows.
+![](pixhawk_telem_cable.png)
+
 
