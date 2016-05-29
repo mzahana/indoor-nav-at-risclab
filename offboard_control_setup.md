@@ -14,4 +14,4 @@ Offboard computers can be single board computer (or SBC in brief), e.g. [ODROID 
 
 In summary, *Pixhawk* is used as a flight controllers. Whereas, offboard controller are used to execute more sophisticated tasks.
 
-In this guide, we will learn how to do offboard control from an SBC (ODROID XU4), and from desktop/laptop that runs *MATLAB*.
+In this guide, we will learn how to do offboard control from an SBC (ODROID XU4), and from desktop/laptop that runs *MATLAB*. In both cases, we need to setup the required hardware interface. We will discuss two main interfaces: Serial interface, and WiFi interface. See next sub-sections for details.
