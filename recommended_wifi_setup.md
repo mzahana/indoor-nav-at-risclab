@@ -26,7 +26,7 @@ Connect the module to the Pixhawk as follows.
 * Search for the *Pixracer* WiFi netwrok. Connect to that network with the password *pixracer*.
 * Open QgroundControl and connect using UDP connection.
 
-Now you are connected to Pixhawk via WiFi. The Wifi Module is in *Access point* mode by default, and it creates it's own WifI network (Pixracer). If you wish to connect to your own local WiFi network.
+Now you are connected to Pixhawk via WiFi. The Wifi Module is in *Access point* mode by default, and it creates its own WiFi network (Pixracer). If you wish to connect to your own local WiFi network.
 * In QGC, go to the **WiFi Bridge** tab on the left and choose *station mode*.
 * Write the desired network name and password in the appropriate field.
 * Restart Pixhawk, and the WiFi module should try
