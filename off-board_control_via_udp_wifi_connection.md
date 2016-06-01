@@ -1,10 +1,6 @@
 # WiFi Interface with WiFly RN XV
 ---
 
-<div class="error">
-This setup is not recommended for multi-Pixhawk communication. The WiFi modules used in this setup suffer from continues disconnection when multiple modules are in use. For more reliable WiFi communication use the ESP8266 setup guide
-</div>
-
 
 In this section, we learn how to setup a WiFi communication with *Pixhawk* using the *RN-XV Wifly* module.
 
