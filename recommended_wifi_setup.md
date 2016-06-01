@@ -1,4 +1,4 @@
-# Recommended WiFi setup
+# WiFi setup using ESP-07
 ---
 
 In this tutorial, we are going to use the *ESP8266* WiFi module to communicate with *Pixhawk* via Wifi.
