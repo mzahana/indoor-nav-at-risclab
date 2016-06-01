@@ -9,7 +9,6 @@
 * [Pixhawk setup for Quadrotor control](quadrotor_control_using_pixhawk.md)
    * [Pixhawk: hardware setup](pixhawk_hardware_setup.md)
    * [Pixhawk: firmware setup](pixhawk_software_setup.md)
-* [Companion computer: ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [Pixhawk Interface](offboard_control_setup.md)
    * [Serial interface](off_board_control_via_serial_communication.md)
    * [WiFi Interface with ESP-07](recommended_wifi_setup.md)
@@ -17,6 +16,7 @@
 * [OFFBOARD Control](offboard_control.md)
    * [Off-board control from ODROID XU4](off-board_control.md)
    * [Off-board control from MATLAB](off-board_control_from_matlab.md)
+* [Companion computer: ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [Companion Computers](companion_computers.md)
    * something
 
