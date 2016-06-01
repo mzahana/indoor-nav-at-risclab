@@ -14,8 +14,8 @@
    * [Serial interface](off_board_control_via_serial_communication.md)
    * [WiFi Interface with ESP-07](recommended_wifi_setup.md)
    * [WiFi Interface with WiFly RN XV](off-board_control_via_udp_wifi_connection.md)
-   * [Off-board control from MATLAB](off-board_control_from_matlab.md)
 * [OFFBOARD Control](offboard_control.md)
    * [Off-board control from ODROID XU4](off-board_control.md)
+   * [Off-board control from MATLAB](off-board_control_from_matlab.md)
    * something
 
