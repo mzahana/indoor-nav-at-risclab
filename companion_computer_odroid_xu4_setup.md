@@ -1,4 +1,4 @@
-# Companion computers ODROID XU4 setup
+# ODROID XU4 setup
 
 
 ---
