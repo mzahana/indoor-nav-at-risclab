@@ -1,4 +1,4 @@
-# Off-board WiFi interface
+# WiFi Interface with WiFly RN XV
 ---
 
 <div class="error">
