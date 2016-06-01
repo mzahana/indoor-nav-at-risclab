@@ -17,4 +17,5 @@
 * [OFFBOARD Control](offboard_control.md)
    * [Off-board control from ODROID XU4](off-board_control.md)
    * [Off-board control from MATLAB](off-board_control_from_matlab.md)
+* Companion Computers
 
