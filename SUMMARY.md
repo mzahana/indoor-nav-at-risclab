@@ -12,7 +12,7 @@
 * [Companion computer: ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [OFFBOARD Control Setup](offboard_control_setup.md)
    * [Serial interface](off_board_control_via_serial_communication.md)
-   * [WiFi setup using ESP-07](recommended_wifi_setup.md)
+   * [WiFi Interface with ESP-07](recommended_wifi_setup.md)
    * [Alternative WiFi interface](off-board_control_via_udp_wifi_connection.md)
    * [Off-board control from ODROID XU4](off-board_control.md)
    * [Off-board control from MATLAB](off-board_control_from_matlab.md)
