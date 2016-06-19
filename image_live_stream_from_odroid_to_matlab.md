@@ -43,5 +43,5 @@ $ ./sender 192.168.1.100 10000
 where `192.168.1.100` is the IP of machine running MATLAB (the host machine) (which should be on the same network as the ODROID's). `10000` is the port that MATLAB is listening on. Use appropriate IP and port that match the host ones.
 
 ## MATLAB setup
-* Make sure that you installed XCode on your Mac OS.
-* Make sure that you associat your MATLAB with XCode compiler.
+* Make sure that you installed XCode on your Mac OS (Google it).
+* Make sure that you associat your MATLAB with XCode compiler (Google it).
