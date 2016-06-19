@@ -17,3 +17,14 @@ Required:
 $ sudo apt-get -y install libopencv-dev
 $ sudo apt-get -y install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 ```
+### setup streaming app
+* create a clean directory and navigate to it e.g.
+```sh
+$ cd ~/Desktop
+$ mkdir imgstream
+$ cd imgstream
+```
+* clone the streaming app from Github
+```sh
+$ git clone https://github.com/mzahana/Image_Live_Stream.git
+```
