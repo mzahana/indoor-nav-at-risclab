@@ -38,5 +38,6 @@ if all goes well, then two executable files should be generated: `sender` and `r
 
 * To stream images over network, use the `sender` app after you connect a camera to ODROID. To use the `sender` app, use the following command in a terminal, inside the `stream_cpp` folder,
 ```sh
-$ 
+$ ./sender 192.168.1.100 10000
 ```
+where `192.168.1.100` is the IP of machine running MATLAB (which should be on the same network as the ODROID's). `10000` is the port that MATLAB is listening on. Use approriate IP and port.
