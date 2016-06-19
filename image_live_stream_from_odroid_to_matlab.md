@@ -34,3 +34,4 @@ $ cd Image_Live_Stream
 $ cd opencv_stream/stream_cpp
 $ cmake . & make
 ```
+if all goes well, then two executable files should be generated: `sender` and `receiver`. Otherwise, make sure that you installed OpenCV properly in the defualt locations.
