@@ -44,4 +44,4 @@ where `192.168.1.100` is the IP of machine running MATLAB (the host machine) (wh
 
 ## MATLAB setup
 * Make sure that you installed XCode on your Mac OS.
-* Make sure that you associated your MATLAB compiler with XCode.
+* Make sure that you associated your MATLAB with XCode compiler.
