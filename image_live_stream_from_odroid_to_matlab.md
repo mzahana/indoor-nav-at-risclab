@@ -29,7 +29,8 @@ $ cd imgstream
 $ git clone https://github.com/mzahana/Image_Live_Stream.git
 $ cd Image_Live_Stream
 ```
-* navigate to the `stream_cpp` folder
+* navigate to the `stream_cpp` folder, and compile the app
 ```sh
 $ cd opencv_stream/stream_cpp
+$ cmake . & make
 ```
