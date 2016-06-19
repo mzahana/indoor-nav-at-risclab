@@ -27,4 +27,5 @@ $ cd imgstream
 * clone the streaming app from Github
 ```sh
 $ git clone https://github.com/mzahana/Image_Live_Stream.git
+$ cd Image_Live_Stream
 ```
