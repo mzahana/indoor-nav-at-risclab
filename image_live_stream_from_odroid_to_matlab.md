@@ -53,4 +53,4 @@ run the `setup.m` file
 ```
 
 If all goes well, you are ready to receive live stream of images from ODROID.
-* Look at the `testScript.m` file to see how you can use the ImgStream class to establish the connection, and receive image data.
+* Look at the `testScript.m` file to see how you can use the *ImgStream* class to establish the connection, and receive image data.
