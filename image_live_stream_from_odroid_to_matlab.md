@@ -45,3 +45,12 @@ where `192.168.1.100` is the IP of machine running MATLAB (the host machine) (wh
 ## MATLAB setup
 * Make sure that you installed XCode on your Mac OS (Google it).
 * Make sure that you associat your MATLAB with XCode compiler (Google it).
+* Navigate to the `Image_Live_Stream` folder that you  downloaded from Github.
+
+run the `setup.m` file
+```matlab
+>> setup
+```
+
+If all goes well, you are ready to receive live stream of images from ODROID.
+* Look at the `testScript.m` file to see how you can use the ImgStream class to establish the connection, and receive image data.
