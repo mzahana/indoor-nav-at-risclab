@@ -6,3 +6,14 @@ Required:
 * MATLAB with associated compiler e.g. XCode
 * WiFi network (Access Point)
 * [Streaming ODROID application + MATLAB receiving application](https://github.com/mzahana/Image_Live_Stream)
+
+## ODROID setup
+* setup OpenCV
+* setup streaming application
+### setup OpenCV
+* Make sure that your odroid is connected to internet.
+* Open a terminal window, and run the follwoing command,
+```sh
+$ sudo apt-get -y install libopencv-dev
+$ sudo apt-get -y install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+```
