@@ -7,5 +7,5 @@ In this demo we will learn two things,
 As you can see from the previous figure, there are 4 main components to setup.
 * Motion capture system.
 * Quadcopter with Pixhawk flight controller.
-* ODROID: embedded linux computer.
+* ODROID: embedded Linux computer.
 * MATLAB enviornment.
