@@ -11,4 +11,4 @@ As you can see from the previous figure, there are 4 main components to setup.
 * MATLAB enviornment.
 
 ## Motion capture setup
-Motion capture (or Mocap in short) is used to provide accurate positions and orientations in an indoor environment. The mocap setup we have in the lab is from *Optitrack* company.
+Motion capture (or Mocap in short) is used to provide accurate positions and orientations in an indoor environment. The mocap setup we have in the lab is from *Optitrack* company. You can think of it as GPS system for indoor environment.
