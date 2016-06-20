@@ -3,7 +3,7 @@
 Required:
 * ODROID with OpenCV installed.
 * [Mac OS with OpenCV installed in default locations.](https://www.youtube.com/watch?v=U49CVY8yOxw)
-* MATLAB with associated compiler e.g. XCode
+* MATLAB with associated compiler e.g. XCode(Mac OS)/Visual Studio or Microsoft SDK (for Windows)
 * WiFi network (Access Point)
 * [Streaming ODROID application + MATLAB receiving application](https://github.com/mzahana/Image_Live_Stream)
 
