@@ -9,3 +9,6 @@ As you can see from the previous figure, there are 4 main components to setup.
 * Quadcopter with Pixhawk flight controller.
 * ODROID: embedded Linux computer.
 * MATLAB enviornment.
+
+## Motion capture setup
+Motion capture (or Mocap in short) is used to provide accurate positions and orientations in an indoor environment. The mocap setup we have in the lab is from *Optitrack* company.
