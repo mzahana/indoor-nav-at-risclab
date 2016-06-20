@@ -59,6 +59,6 @@ If all goes well, you are ready to receive live stream of images from ODROID.
 ### On Windows
 * Make sure that you install OpenCV 2.4.13 on your Windows. Follow [this video](https://www.youtube.com/watch?v=tHX3MLzwF6Q). It is assumed that you installed the opencv folder in `C:\`
 * Make sure that your MATLAB is associated with compiler. Run `mex -setup` in MATLAB command line for more information.
-* In MATLAB, run the setup.m file.
+* In MATLAB, run the `setup.m` file.
 
 If all goes well, you are ready to receive image stream. Look at the test script to get familiar on how to use the ImgStream Class.
