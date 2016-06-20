@@ -10,5 +10,12 @@ As you can see from the previous figure, there are 4 main components to setup.
 * ODROID: embedded Linux computer.
 * MATLAB enviornment.
 
-## Motion capture setup
+## 1- Motion capture setup
 Motion capture (or Mocap in short) is used to provide accurate positions and orientations in an indoor environment. The mocap setup we have in the lab is from *Optitrack* company. You can think of it as GPS system for indoor environment. The software which is used to define rigid bodies (e.g. quadcopter) is called *Motive*. Rigid bodies are defined by at least 3 reflective markers that are rigidly mounted on the object of interest.
+
+What we need in this tutorial is to
+* open *Motive* project
+* define rigid bodies
+* configure streaming parameters in Motive
+* use the Streaming Application to send mocap info to Pixhawk.
+
