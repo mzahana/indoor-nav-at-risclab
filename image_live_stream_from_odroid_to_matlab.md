@@ -43,6 +43,7 @@ $ ./sender 192.168.1.100 10000
 where `192.168.1.100` is the IP of machine running MATLAB (the host machine) (which should be on the same network as the ODROID's). `10000` is the port that MATLAB is listening on. Use appropriate IP and port that match the host ones.
 
 ## MATLAB setup
+### On MAC OS
 * Make sure that you installed XCode on your Mac OS (Google it).
 * Make sure that you associat your MATLAB with XCode compiler (Google it).
 * Navigate to the `Image_Live_Stream` folder that you  downloaded from Github.
@@ -54,3 +55,10 @@ run the `setup.m` file
 
 If all goes well, you are ready to receive live stream of images from ODROID.
 * Look at the `testScript.m` file to see how you can use the *ImgStream* class to establish the connection, and receive image data.
+
+### On Windows
+* Make sure that you install OpenCV 2.4.13 on your Windows. Follow [this video](https://www.youtube.com/watch?v=tHX3MLzwF6Q) 
+* Make sure that your MATLAB is associated with compiler
+* In MATLAB, run the setup.m file.
+
+If all goes well, you are ready to receive image stream. Look at the test script to get familiar on how to use the ImgStream Class.
