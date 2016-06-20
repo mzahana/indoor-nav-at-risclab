@@ -19,3 +19,8 @@ What we need in this tutorial is to
 * configure streaming parameters in Motive
 * use the Streaming Application to send mocap info to Pixhawk.
 
+The Mocap is assumed to be calibrated and ready to be used.
+
+Follow the following steps in order.
+
+* Open *Motive* software, and choose 'Open Existing Project'. Choose a recent project that represents the latest calibration settings.
