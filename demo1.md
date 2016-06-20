@@ -21,7 +21,7 @@ What we need in this tutorial is to
 
 The Mocap is assumed to be calibrated and ready to be used.
 
-Follow the following steps in order.
+**Follow the following steps in order.**
 
 * Open *Motive* software, and choose 'Open Existing Project'. Choose a recent project that represents the latest calibration settings.
-* close the *Camera Preview* view, and leave the *Perspective View* view for 3D viewing of objects
+* close the *Camera Preview* view, and leave the *Perspective View* view for 3D viewing of objects.
