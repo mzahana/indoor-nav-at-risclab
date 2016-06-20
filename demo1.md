@@ -25,3 +25,6 @@ The Mocap is assumed to be calibrated and ready to be used.
 
 * Open *Motive* software, and choose 'Open Existing Project'. Choose a recent project that represents the latest calibration settings.
 * close the *Camera Preview* view, and leave the *Perspective View* view for 3D viewing of objects.
+* place the object in the cage (e.g. quadcopter) with mounted markers.
+* select markers in the *Perspective View* and create a rigid body
+* ![](http://wiki.optitrack.com/index.php?title=File:Asset_RBRightClick.png)
