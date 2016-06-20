@@ -45,7 +45,7 @@ where `192.168.1.100` is the IP of machine running MATLAB (the host machine) (wh
 ## MATLAB setup
 ### On MAC OS
 * Make sure that you installed XCode on your Mac OS (Google it).
-* Make sure that you associat your MATLAB with XCode compiler (Google it).
+* Make sure that you associat your MATLAB with XCode compiler (Google it). Run `mex -setup` in MATLAB command line for more information.
 * Navigate to the `Image_Live_Stream` folder that you  downloaded from Github.
 
 run the `setup.m` file
