@@ -31,11 +31,64 @@ What we need in this tutorial is to
 ![](choose project.PNG)
 
 * close the *Camera Preview* view, and leave the *Perspective View* view for 3D viewing of objects.
-* ![](motive1.PNG)
+ ![](motive1.PNG)
 * place the object in the cage (e.g. quadcopter) with mounted markers (minimum 3 markers).
 * select markers in the *Perspective View* and create a rigid body
 ![](createRigidbody.png)
 You can know your rigid body number from the *Rigid Body*, after you select the rigid body in the *Perspective View*
 
 * Now, activate streaming over network as follows
-* ![](motiveStreamTab.PNG)
+ ![](motiveStreamTab.PNG)
+* Connect the wireless serial module to the Mocap PC (e.g. XBee)
+* Open Mocap streaming App.
+![](mocapstream.PNG)
+* Select the proper *Vehicle ID*
+* In the *Serial Connection* tab, select the proper serial port of the communication module from the *Port Name* drop menu. Set the *Baud Rate* to `57600`. Finally, click the *Connect* button. If the connection is successful, it will show a status message in the *Port Status* field.
+* In the *Mocap Connection* tab, leave the *Mocap IP* and *Clien IP* to the defaults IPs (`127.0.0.1`). Hit the *Connect* button.
+* If the connection is successful, you should see the defined rigid bodies in the *Received Bodies* list box.
+* Select the one corresponds to the quadcopter. Then, check the *stream to Mav* checkbox.
+* Now, your quad should be getting its position and orientaion feedback from the Mocap system.
+
+## 2-Quadcopter setup
+This tutorial assumes that the quadcopter is setup and equipped with a calibrated Pixhawk (or Pixracer) flight controller.
+
+In this Demo, the quadcopter is assumed to have an ODROID on-board, two serial communication modules (e.g. XBee). One for the Mocap connection, and the other for MATLAB connection.
+
+## 3-ODROID setup
+In this Demo, ODROID is used to capture real-time images and stream them over WiFi network to a MATLAB session. The streaming application is assumed to be installed on ODROID and ready to be used. Also, the ODROID is assumed to be setup to connect to a local WiFi network.
+
+Check [this guide](https://github.com/mzahana/Image_Live_Stream) to see how to install the streaming app on ODROID.
+
+To run the application, follow the following steps in order,
+* connect a compatible camera to ODROID
+* connect a compatibe WiFi module to ODROID (use the ODROID WiFi adapter)
+* power on the ODROID
+* from your laptop (which is connected to the same local WiFi network as the ODROID), open a terminal and remotely log-in to ODROID
+
+```sh
+$ ssh odroid@192.168.1.113
+# password: odroid
+```
+`odroid` is the user account name. `192.168.1.113` is the ODROID's IP address.
+* navigate to the app folder and run it
+
+```sh
+$ cd ~/Desktop/imgstream/Image_Live_Stream/opencv_stream/stream_cpp
+$$ ./sender 192.168.1.112 10000
+```
+`192.168.1.112` is your machine's IP address. `10000` is the port that is going to be opened in your MATLAB. You can choose whatever another port, but make sure it matches the one used in your MATLAB.
+* now, the ODROID is sending image to the specified IP and port.
+
+## 4-MATLAB setup
+In this Demo, MATLAB is used to communicate with Pixhawk (or Pixracer) and receive live-stream of images from ODROID.
+
+**NOTE**: You need to use the MATLAB files associated with this Demo. Please ask for your free copy.
+
+We are going to use two main MATLAB classes in this Demo. One is called **MatMav**, and the other is called **ImgStream**.
+
+**MatMav** is a MATLAB class that is used to communicate with Pixhawk. **ImgStream** is a MATLAB class that is use to receive live image stream from ODROID (or any Linux computer) over network.
+
+
+* Download the MATLAB folder associated with this Demo.
+* Open MATLAB and navigate to that folder.
+* d
