@@ -82,7 +82,6 @@ $$ ./sender 192.168.1.112 10000
 ## 4-MATLAB setup
 In this Demo, MATLAB is used to communicate with Pixhawk (or Pixracer) and receive live-stream of images from ODROID.
 
-**NOTE**: You need to use the MATLAB files associated with this Demo. Please ask for your free copy.
 <div class="warning">
 NOTE: You need to use the MATLAB files associated with this Demo. Please ask for your free copy.
 </div>
@@ -92,6 +91,9 @@ We are going to use two main MATLAB classes in this Demo. One is called **MatMav
 **MatMav** is a MATLAB class that is used to communicate with Pixhawk. **ImgStream** is a MATLAB class that is use to receive live image stream from ODROID (or any Linux computer) over network.
 
 Before you use the MATLAB files associated with this demo, you should setup your enviornment properly. 
+<div class="warning">
+NOTE: Before you use the MATLAB files associated with this demo, you should setup your enviornment properly.
+</div>
 
 * Download the MATLAB folder associated with this Demo.
 * Open MATLAB and navigate to that folder.
