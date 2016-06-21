@@ -105,3 +105,6 @@ Google how to associate your MATLAB with a comiler.
 * run the `setup.m` file.
 
 If all goes well, you should get the message `Setup is done`
+* check the `Demo1` file to get familiar with *MatMav* and *ImgStream* classes.
+
+**Good Luck!**
