@@ -36,3 +36,6 @@ What we need in this tutorial is to
 * select markers in the *Perspective View* and create a rigid body
 ![](createRigidbody.png)
 You can know your rigid body number from the *Rigid Body*, after you select the rigid body in the *Perspective View*
+
+* Now, activate streaming over network as follows
+* ![](motiveStreamTab.PNG)
