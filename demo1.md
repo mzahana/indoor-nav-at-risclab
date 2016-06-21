@@ -77,10 +77,12 @@ $ cd ~/Desktop/imgstream/Image_Live_Stream/opencv_stream/stream_cpp
 $$ ./sender 192.168.1.112 10000
 ```
 `192.168.1.112` is your machine's IP address. `10000` is the port that is going to be opened in your MATLAB. You can choose another port, but make sure it matches the one used in your MATLAB.
-* now, the ODROID is sending image to the specified IP and port.
+* now, the ODROID is sending images to the specified IP and port.
 
 ## 4-MATLAB setup
-In this Demo, MATLAB is used to communicate with Pixhawk (or Pixracer) and receive live-stream of images from ODROID.
+In this Demo, MATLAB is used to 
+* communicate with Pixhawk (or Pixracer) in order to send high-level commands. For example, position set-points, velocity set-points, or acceleration set-points. It can also receive feedback information from Pixhawk.
+* receive live-stream of images from ODROID.
 
 <div class="warning">
 NOTE: You need to use the MATLAB files associated with this Demo. Please ask for your free copy.
