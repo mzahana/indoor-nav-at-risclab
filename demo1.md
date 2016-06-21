@@ -1,5 +1,5 @@
 # Demo1
-In this demo we will learn two things,
+In this demo you will learn two things,
 * Sending high-level commands  from *MATLAB* to Pixhawk, using *MATMAV*
 * Getting live stream of images (into *MATLAB*) from ODROID which is mounted on a quadcopter.
 ![](demo1.png)
