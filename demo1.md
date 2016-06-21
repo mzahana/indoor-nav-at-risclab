@@ -76,7 +76,7 @@ $ ssh odroid@192.168.1.113
 $ cd ~/Desktop/imgstream/Image_Live_Stream/opencv_stream/stream_cpp
 $$ ./sender 192.168.1.112 10000
 ```
-`192.168.1.112` is your machine's IP address. `10000` is the port that is going to be opened in your MATLAB. You can choose whatever another port, but make sure it matches the one used in your MATLAB.
+`192.168.1.112` is your machine's IP address. `10000` is the port that is going to be opened in your MATLAB. You can choose another port, but make sure it matches the one used in your MATLAB.
 * now, the ODROID is sending image to the specified IP and port.
 
 ## 4-MATLAB setup
