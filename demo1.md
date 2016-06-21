@@ -102,4 +102,6 @@ Google how to associate your MATLAB with a comiler.
 
 * Download the MATLAB folder associated with this Demo.
 * Open MATLAB and navigate to that folder.
-* d
+* run the `setup.m` file.
+
+If all goes well, you should get the message `Setup is done`
