@@ -88,6 +88,7 @@ We are going to use two main MATLAB classes in this Demo. One is called **MatMav
 
 **MatMav** is a MATLAB class that is used to communicate with Pixhawk. **ImgStream** is a MATLAB class that is use to receive live image stream from ODROID (or any Linux computer) over network.
 
+Before you use the MATLAB files associated with this demo, you should setup your enviornment properly. 
 
 * Download the MATLAB folder associated with this Demo.
 * Open MATLAB and navigate to that folder.
