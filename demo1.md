@@ -34,4 +34,5 @@ What we need in this tutorial is to
 * ![](motive1.PNG)
 * place the object in the cage (e.g. quadcopter) with mounted markers (minimum 3 markers).
 * select markers in the *Perspective View* and create a rigid body
-* ![](http://wiki.optitrack.com/index.php?title=File:Asset_RBRightClick.png)
+![](createRigidbody.png)
+You can know your rigid body number from the *Rigid Body*, after you select the rigid body in the *Perspective View*
