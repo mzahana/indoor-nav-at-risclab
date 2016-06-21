@@ -27,6 +27,8 @@ What we need in this tutorial is to
 **Follow the following steps in order.**
 
 * Open *Motive* software, and choose 'Open Existing Project'. Choose a recent project that represents the latest calibration settings.
+![](startup screen.PNG)
+
 * close the *Camera Preview* view, and leave the *Perspective View* view for 3D viewing of objects.
 * place the object in the cage (e.g. quadcopter) with mounted markers.
 * select markers in the *Perspective View* and create a rigid body
