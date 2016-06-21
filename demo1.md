@@ -94,6 +94,11 @@ Before you use the MATLAB files associated with this demo, you should setup your
 <div class="warning">
 NOTE: Before you use the MATLAB files associated with this demo, you should setup your enviornment properly. Namely, you need to associate your MATLAB with a C/C++ compiler, and instal OpenCV.
 </div>
+Please follow the OpenCV installation as follows,
+* for Mac OS ([see this video](https://www.youtube.com/watch?v=U49CVY8yOxw))
+* for Windows, ([see this video](https://www.youtube.com/watch?v=EcFtefHEEII))
+
+Google how to associate your MATLAB with a comiler.
 
 * Download the MATLAB folder associated with this Demo.
 * Open MATLAB and navigate to that folder.
