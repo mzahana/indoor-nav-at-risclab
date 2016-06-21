@@ -15,6 +15,8 @@ Motion capture (or Mocap in short) is used to provide accurate positions and ori
 
 Mocap mainly consists of cameras, network switches, and a PC with a special software. Cameras capture images which contain special *reflective markers*. Those markers are used to track objects (rigid bodies) they are attached to. Then, images from all cameras are transmitted to the PC software (called *Motive*) through the network switches, in order to do further image processing. *Motive* extracts useful information about captured rigid bodies such as position and orientation. Rigid bodies are defined by at least 3 reflective markers that are rigidly mounted on the object of interest.
 
+For this tutorial, it is assumed that the Mocap is already calibrated.
+
 What we need in this tutorial is to
 * open *Motive* project
 * define rigid bodies
