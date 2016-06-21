@@ -92,7 +92,7 @@ We are going to use two main MATLAB classes in this Demo. One is called **MatMav
 
 Before you use the MATLAB files associated with this demo, you should setup your enviornment properly. 
 <div class="warning">
-NOTE: Before you use the MATLAB files associated with this demo, you should setup your enviornment properly.
+NOTE: Before you use the MATLAB files associated with this demo, you should setup your enviornment properly. Namely, you need to associate your MATLAB with a C/C++ compiler, and instal OpenCV.
 </div>
 
 * Download the MATLAB folder associated with this Demo.
