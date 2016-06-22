@@ -27,6 +27,7 @@ What we need in this tutorial is to
 **Follow the following steps in order.**
 
 * Open *Motive* software, and choose 'Open Existing Project'. Choose a recent project that represents the latest calibration settings.
+
 ![](startup screen.PNG)
 ![](choose project.PNG)
 
