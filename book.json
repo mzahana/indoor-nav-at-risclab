@@ -10,7 +10,8 @@
         "hints",
         "youtube",
         "anchorjs",
-        "anchor-navigation"
+        "anchor-navigation",
+        "indexes"
     ],
     "pluginsConfig": {}
 }
