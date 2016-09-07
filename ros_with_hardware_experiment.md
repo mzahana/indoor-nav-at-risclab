@@ -31,14 +31,16 @@ NOTE: We assume that ODROID is connected serially to Pixhawk via TELEM2 port
 </div>
 **Note**: The following steps are done on ODROID.
 
-You can check that MAVROS is running properly, by:
+* Log into ODROID using ```ssh``` as explained above.
+* You can check that MAVROS is running properly, by:
 first run ```roscore``` in separate terminal
 ```sh
 roscore
 ```
-then, in a separate terminal, run the main node, to connect to Pixhawk
+* then, in a separate terminal, run the main node, to connect to Pixhawk
 ```sh
 rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600
 ```
 
-## Writing offboard node
+## Writing off-board node
+**Note**: The following steps are done on ODROID.
