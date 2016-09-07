@@ -68,7 +68,6 @@ gedit CMakeLists.txt
 * add the following line to the end of this file:
 ```sh
 include_directories(include ${catkin_INCLUDE_DIRS})
-
 add_executable(offb_node src/offb_node.cpp)
 target_link_libraries(offb_node ${catkin_LIBRARIES})
 ```
