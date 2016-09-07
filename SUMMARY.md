@@ -7,10 +7,10 @@
        * [Camera calibration](camera_calibration.md)
        * [Motive setup](motive_setup.md)
        * [Setup streaming application](setup_streaming_application.md)
+   * [Pixhawk setup for Quadrotor control](quadrotor_control_using_pixhawk.md)
+       * [Pixhawk: hardware setup](pixhawk_hardware_setup.md)
+       * [Pixhawk: firmware setup](pixhawk_software_setup.md)
    * test
-* [Pixhawk setup for Quadrotor control](quadrotor_control_using_pixhawk.md)
-   * [Pixhawk: hardware setup](pixhawk_hardware_setup.md)
-   * [Pixhawk: firmware setup](pixhawk_software_setup.md)
 * [Pixhawk Interface](offboard_control_setup.md)
    * [Serial interface](off_board_control_via_serial_communication.md)
    * [WiFi Interface with ESP-07](recommended_wifi_setup.md)
