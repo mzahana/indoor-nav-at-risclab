@@ -29,6 +29,8 @@ Now, installation is done!
 <div class="info">
 NOTE: We assume that ODROID is connected serially to Pixhawk via TELEM2 port
 </div>
+**Note**: The following steps are done on ODROID.
+
 You can check that MAVROS is running properly, by:
 first run ```roscore``` in separate terminal
 ```sh
