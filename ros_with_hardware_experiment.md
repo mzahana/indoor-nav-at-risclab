@@ -51,3 +51,12 @@ cd ~/ros_ws/src
 # create a package. e.g. px4_offb_test
 catkin_
 ```
+* create a ```offb_node.cpp``` file in the package src folder
+```sh
+cd ~/ros_ws/src/px4_offb_test/src
+gedit offb_node.cpp
+```
+* add the following code to the file,
+```sh
+# the code goes here!
+```
