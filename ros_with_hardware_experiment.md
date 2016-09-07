@@ -44,3 +44,10 @@ rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600
 
 ## Writing off-board node
 **Note**: The following steps are done on ODROID.
+* In the ros workspace you created in the basics tutrorial [**add link**], create a new package:
+```sh
+# navigate to the src foler
+cd ~/ros_ws/src
+# create a package. e.g. px4_offb_test
+catkin_
+```
