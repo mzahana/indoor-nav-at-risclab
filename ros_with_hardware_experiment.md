@@ -3,7 +3,7 @@
 This tutorial will demonstrate the following,
 * Install MAVROS package
 * Connect to Pixhawk by running the ```mavros_node```
-* Writing ```offb_node``` to control quadcopter to follow circular trajectory.
+* Writing ```offb_node``` to control quadrotor to follow circular trajectory.
 
 ## Install MAVROS
 <div class="info">
@@ -35,3 +35,5 @@ then, in a separate terminal, run the main node, to connect to Pixhawk
 ```sh
 rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600
 ```
+
+## Writing offboard node
