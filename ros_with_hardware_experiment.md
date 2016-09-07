@@ -6,9 +6,9 @@ This tutorial will demonstrate the following,
 * Writing ```offb_node``` to control quadcopter to follow circular trajectory.
 
 ## Install MAVROS
-* We asume that ROS-Indigo is used.
-
-
+<div class="info">
+NOTE: We asume that ROS-Indigo is used.
+</div>
 1. Log-in to the ODROID account using the ```ssh``` command:
 ```sh
 # account name here is, odroid
@@ -23,7 +23,9 @@ sudo apt-get install ros-indigo-mavros ros-indigo-mavros-extras
 Now, installation is done!
 
 ## Connect to Pixhawk
-
+<div class="info">
+NOTE: We assume that ODROID is connected serially to Pixhawk via TELEM2 port
+</div>
 You can check that MAVROS is running properly, by:
 first run ```roscore``` in separate terminal
 ```sh
