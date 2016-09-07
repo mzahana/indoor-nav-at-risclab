@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Indoor Quadcopter Navigation](indoor_quadcopter_navigation.md)
 * [System Architecture](chapter1.md)
 * [Motion Capture setup: OptiTrack](motion_capture_setup_optitrack.md)
    * [Camera calibration](camera_calibration.md)
@@ -22,5 +23,4 @@
    * [Image live stream from ODROID to MATLAB](image_live_stream_from_odroid_to_matlab.md)
    * [Demo1](demo1.md)
    * ROS-Tutorial
-* [Indoor Quadcopter Navigation](indoor_quadcopter_navigation.md)
 
