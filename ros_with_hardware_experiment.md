@@ -21,6 +21,7 @@ ssh odroid@192.168.1.10
 * Once logged, type the following commands to install ROS-indigo:
 ```sh
 sudo apt-get install ros-indigo-mavros ros-indigo-mavros-extras
+# enter your account password if asked
 ```
 Now, installation is done!
 
