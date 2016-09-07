@@ -49,7 +49,7 @@ rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600
 # navigate to the src foler
 cd ~/ros_ws/src
 # create a package. e.g. px4_offb_test
-catkin_
+catkin_create_pkg px4_offb_test std_msgs rospy roscpp mavros mavros_msgs
 ```
 * create a ```offb_node.cpp``` file in the package src folder
 ```sh
