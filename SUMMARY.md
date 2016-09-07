@@ -14,10 +14,10 @@
        * [Serial interface](off_board_control_via_serial_communication.md)
        * [WiFi Interface with ESP-07](recommended_wifi_setup.md)
        * [WiFi Interface with WiFly RN XV](off-board_control_via_udp_wifi_connection.md)
+   * [OFFBOARD Control](offboard_control.md)
+       * [Off-board control from ODROID XU4](off-board_control.md)
+       * [Off-board control from MATLAB](off-board_control_from_matlab.md)
    * test
-* [OFFBOARD Control](offboard_control.md)
-   * [Off-board control from ODROID XU4](off-board_control.md)
-   * [Off-board control from MATLAB](off-board_control_from_matlab.md)
 * [Companion Computers](companion_computers.md)
    * [ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [Special Tutorials](special_tutorials.md)
