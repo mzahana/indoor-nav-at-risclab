@@ -13,7 +13,7 @@ NOTE: We asume that ROS-Indigo is used.
 ```sh
 # account name here is, odroid
 ssh odroid@192.168.1.10
-# then enter the user name and password
+# then enter password
 ```
 
 2. Once logged, type the following commands:
