@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Indoor Quadcopter Navigation](indoor_quadcopter_navigation.md)
+   * test
 * [System Architecture](chapter1.md)
 * [Motion Capture setup: OptiTrack](motion_capture_setup_optitrack.md)
    * [Camera calibration](camera_calibration.md)
