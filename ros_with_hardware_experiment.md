@@ -60,3 +60,20 @@ gedit offb_node.cpp
 ```sh
 # the code goes here!
 ```
+* add the node to the ```CMakeLists.txt```. First, open the CMakeLists file
+```sh
+cd ~/ros_ws/src/px4_offb_test
+gedit CMakeLists.txt
+```
+* add the following line to the end of this file:
+```sh
+include_directories(include ${catkin_INCLUDE_DIRS})
+
+add_executable(offb_node src/offb_node.cpp)
+target_link_libraries(offb_node ${catkin_LIBRARIES})
+```
+* build the ros workspace:
+```sh
+cd ~/ros_ws
+catkin_make
+```
