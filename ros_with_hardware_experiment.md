@@ -9,14 +9,17 @@ This tutorial will demonstrate the following,
 <div class="info">
 NOTE: We asume that ROS-Indigo is used.
 </div>
-1. Log-in to the ODROID account using the ```ssh``` command:
+* We will install MAVROS on ODROID
+* Make sure that ODROID has internet conncetion
+* make sure ODROID is conencted to same network router as your PC
+* Log-in to the ODROID account using the ```ssh``` command:
 ```sh
 # account name here is, odroid
 ssh odroid@192.168.1.10
 # then enter password: odroid
 ```
 
-2. Once logged, type the following commands:
+* Once logged, type the following commands:
 ```sh
 sudo apt-get install ros-indigo-mavros ros-indigo-mavros-extras
 ```
