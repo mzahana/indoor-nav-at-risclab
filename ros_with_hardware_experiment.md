@@ -15,6 +15,7 @@ NOTE: We asume that ROS-Indigo is used.
 * Log-in to the ODROID account using the ```ssh``` command:
 ```sh
 # account name here is, odroid
+# choose the correct IP
 ssh odroid@192.168.1.10
 # then enter password: odroid
 ```
