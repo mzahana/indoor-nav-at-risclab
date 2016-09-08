@@ -43,7 +43,7 @@ roscore
 ```sh
 rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600
 ```
-* If the connection failed, you might need to have permission for the serial port,
+* If the connection failed, you might need to have permission on the serial port,
 ```sh
 sudo chmod a+rw /dev/ttyACM0
 # enter password if asked: odroid
