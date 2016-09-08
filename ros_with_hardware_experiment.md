@@ -38,9 +38,15 @@ first run ```roscore``` in separate terminal
 ```sh
 roscore
 ```
+* Make sure that Pixhawk is connected to ODROID
 * then, in a separate terminal, run the main node, to connect to Pixhawk
 ```sh
 rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600
+```
+* If the connection failed, you might need to have permission for the serial port,
+```sh
+sudo chmod a+rw /dev/ttyACM0
+# enter password if asked: odroid
 ```
 
 ## Writing off-board node
