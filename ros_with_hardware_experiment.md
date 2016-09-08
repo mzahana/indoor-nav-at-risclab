@@ -3,7 +3,7 @@
 This tutorial will demonstrate the following,
 * Install MAVROS package
 * Connect to Pixhawk by running the ```mavros_node```
-* Writing ```offb_node``` to control quadrotor to follow circular trajectory.
+* Writing ```offb_node``` to control quadrotor (equipped with Pixhawk) to follow circular trajectory.
 
 ## Install MAVROS
 <div class="info">
