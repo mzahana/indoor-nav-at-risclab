@@ -70,7 +70,7 @@ gedit offb_node.cpp
 ```
 * add the following code to the file,
 
-```c++
+```sh
 /**
  * @file offb_node.cpp
  * @brief offboard example node, written with mavros version 0.14.2, px4 flight
