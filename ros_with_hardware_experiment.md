@@ -85,10 +85,10 @@ gedit offb_node.cpp
 #include <sensor_msgs/Imu.h>
 #include "math.h"
 
-double r=1.0; // parameter in ROS?
+double r=1.0; // could be parameter in ROS?
 double theta;
 double count=0.0;
-double wn=1.0;// could parameter in ROS?
+double wn=1.0;// could be parameter in ROS?
 
 mavros_msgs::State current_state;
 void state_cb(const mavros_msgs::State::ConstPtr& msg){
