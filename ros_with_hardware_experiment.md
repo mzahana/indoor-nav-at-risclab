@@ -1,5 +1,7 @@
 # ROS with Hardware Experiment
 
+This tutorial session assumes that you have attended the 'ROS Basics' session, and got familiar with ROs.
+
 This tutorial will demonstrate the following,
 * Install MAVROS package
 * Connect to Pixhawk by running the ```mavros_node```
