@@ -23,7 +23,7 @@ NOTE: We asume that ROS-Indigo is used.
 ssh odroid@192.168.1.10
 # then enter password: odroid
 ```
-* Once logged, type the following commands to install ROS-indigo:
+* Once logged, type the following commands to install MAVROS:
 ```sh
 sudo apt-get install ros-indigo-mavros ros-indigo-mavros-extras
 # enter your account password if asked
