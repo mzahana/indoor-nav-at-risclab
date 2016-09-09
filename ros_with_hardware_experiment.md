@@ -70,13 +70,12 @@ gedit offb_node.cpp
 ```
 * add the following code to the file,
 
-```sh
+```cpp
 /**
  * @file offb_node.cpp
  * @brief offboard example node, written with mavros version 0.14.2, px4 flight
  * stack and tested in Gazebo SITL
  */
-
 #include <ros/ros.h>
 #include <geometry_msgs/PoseStamped.h>
 #include <mavros_msgs/CommandBool.h>
