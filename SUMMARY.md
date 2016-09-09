@@ -24,6 +24,6 @@
    * [Demo1](demo1.md)
    * [ROS-Tutorial](ros-tutorial.md)
        * [ROS Basics](ros_basics.md)
-       * ROS with Simulation
+       * [ROS with Simulation](ros_with_simulation.md)
        * [ROS with Hardware Experiment](ros_with_hardware_experiment.md)
 
