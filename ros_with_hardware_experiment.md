@@ -52,7 +52,7 @@ rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600
 sudo chmod a+rw /dev/ttyACM0
 # enter password if asked: odroid
 ```
-The serial port might have different address e.g. ```/dev/ttyS2```. Also, make sure that you
+The serial port might have different address e.g. ```/dev/ttyS2```. Also, make sure that you are using the right baudrate.
 
 ## Writing off-board node
 **Note**: The following steps are done on ODROID.
