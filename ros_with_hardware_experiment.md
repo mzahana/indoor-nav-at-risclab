@@ -163,6 +163,12 @@ int main(int argc, char **argv)
             }
         }
 
+        theta = wn*count*0.05;
+
+        pose.pose.position.x = r*sin(theta);
+        pose.pose.position.y = r*cos(theta);
+        pose.pose.position.z = 15;
+        
         local_pos_pub.publish(pose);
 
         ros::spinOnce();
@@ -254,3 +260,44 @@ mavros_msgs::SetMode offb_set_mode;
 offb_set_mode.request.custom_mode = "OFFBOARD";
 ```
 We set the custom mode to ```OFFBOARD```. A list of [supported modes](http://wiki.ros.org/mavros/CustomModes#PX4_native_flight_stack) is available for reference.
+```c++
+mavros_msgs::CommandBool arm_cmd;
+arm_cmd.request.value = true;
+
+ros::Time last_request = ros::Time::now();
+
+while(ros::ok()){
+        if( current_state.mode != "OFFBOARD" &&
+                (ros::Time::now() - last_request > ros::Duration(5.0))){
+                if( set_mode_client.call(offb_set_mode) &&
+                        offb_set_mode.response.success){
+                        ROS_INFO("Offboard enabled");
+                }
+                last_request = ros::Time::now();
+        } else {
+                if( !current_state.armed &&
+                        (ros::Time::now() - last_request > ros::Duration(5.0))){
+                        if( arming_client.call(arm_cmd) &&
+                                arm_cmd.response.success){
+                                ROS_INFO("Vehicle armed");
+                        }
+                        last_request = ros::Time::now();
+                }
+        }
+
+        theta = wn*count*0.05;
+
+        pose.pose.position.x = r*sin(theta);
+        pose.pose.position.y = r*cos(theta);
+        pose.pose.position.z = 15;
+        
+        local_pos_pub.publish(pose);
+
+        ros::spinOnce();
+        rate.sleep();
+}
+```
+The rest of the code is pretty self explanatory. We attempt to switch to offboard mode after which we arm the quad to allow it to fly. We space out the service calls by 5 seconds so as to not flood the autopilot with the requests. In the same loop we continue sending the requested pose at the appropriate rate.
+
+Also, we calculate a new point on the circular trajectory using,
+
