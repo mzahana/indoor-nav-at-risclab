@@ -300,4 +300,11 @@ while(ros::ok()){
 The rest of the code is pretty self explanatory. We attempt to switch to offboard mode after which we arm the quad to allow it to fly. We space out the service calls by 5 seconds so as to not flood the autopilot with the requests. In the same loop we continue sending the requested pose at the appropriate rate.
 
 Also, we calculate a new point on the circular trajectory using,
+```c++
+        theta = wn*count*0.05;
+
+        pose.pose.position.x = r*sin(theta);
+        pose.pose.position.y = r*cos(theta);
+        pose.pose.position.z = 15;
+```
 
