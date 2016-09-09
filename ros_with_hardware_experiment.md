@@ -15,7 +15,7 @@ NOTE: We asume that ROS-Indigo is used.
 </div>
 * We will install MAVROS on ODROID
 * Make sure that ODROID has internet conncetion
-* make sure ODROID is conencted to same network router as your PC
+* make sure ODROID is conencted to the same network router as your PC
 * Log-in to the ODROID account using the ```ssh``` command:
 ```sh
 # account name here is, odroid
