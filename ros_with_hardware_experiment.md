@@ -1,6 +1,8 @@
 # ROS with Hardware Experiment
 
-**NOTE**: This tutorial session assumes that you have attended the 'ROS Basics' session, and got familiar with ROS.
+<div class="warning">
+NOTE: This tutorial session assumes that you have attended the 'ROS Basics' session, and got familiar with ROS.
+</div>
 
 This tutorial will demonstrate the following,
 * Install MAVROS package
