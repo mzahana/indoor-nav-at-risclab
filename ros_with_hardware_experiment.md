@@ -70,12 +70,13 @@ gedit offb_node.cpp
 ```
 * add the following code to the file,
 
-```cpp
+```c
 /**
  * @file offb_node.cpp
  * @brief offboard example node, written with mavros version 0.14.2, px4 flight
  * stack and tested in Gazebo SITL
  */
+
 #include <ros/ros.h>
 #include <geometry_msgs/PoseStamped.h>
 #include <mavros_msgs/CommandBool.h>
@@ -84,10 +85,10 @@ gedit offb_node.cpp
 #include <sensor_msgs/Imu.h>
 #include "math.h"
 
-double r; // circle radius
+double r=1.0; // parameter in ROS?
 double theta;
 double count=0.0;
-double wn;
+double wn=1.0;// could parameter in ROS?
 
 mavros_msgs::State current_state;
 void state_cb(const mavros_msgs::State::ConstPtr& msg){
@@ -116,10 +117,6 @@ int main(int argc, char **argv)
 
     //the setpoint publishing rate MUST be faster than 2Hz
     ros::Rate rate(20.0);
-    
-    // set parameters of the circular trajectory
-    nh.param("pub_setpoints_traj/wn, 1.0);
-    nh.param("pub_setpoints_traj/r 1.0);
 
     // wait for FCU connection
     while(ros::ok() && current_state.connected){
@@ -165,16 +162,7 @@ int main(int argc, char **argv)
                 last_request = ros::Time::now();
             }
         }
-        
-        // update new point on circle
-        theta = wn*count*0.05;
 
-        pose.pose.position.x = r*sin(theta);
-        pose.pose.position.y = r*cos(theta);
-        pose.pose.position.z = 15;
-
-        count++;
-        
         local_pos_pub.publish(pose);
 
         ros::spinOnce();
