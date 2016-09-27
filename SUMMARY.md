@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Companion Computers](companion_computers.md)
+   * [ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [Indoor Quadcopter Navigation](indoor_quadcopter_navigation.md)
    * [System Architecture](chapter1.md)
    * [Motion Capture setup: OptiTrack](motion_capture_setup_optitrack.md)
