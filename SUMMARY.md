@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Companion Computers](companion_computers.md)
-   * [ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [Indoor Quadcopter Navigation](indoor_quadcopter_navigation.md)
    * [System Architecture](chapter1.md)
    * [Motion Capture setup: OptiTrack](motion_capture_setup_optitrack.md)
@@ -19,8 +17,8 @@
    * [OFFBOARD Control](offboard_control.md)
        * [Off-board control from ODROID XU4](off-board_control.md)
        * [Off-board control from MATLAB](off-board_control_from_matlab.md)
-   * [Companion Computers](companion_computers.md)
-       * [ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
+* [Companion Computers](companion_computers.md)
+   * [ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
 * [Special Tutorials](special_tutorials.md)
    * [Image live stream from ODROID to MATLAB](image_live_stream_from_odroid_to_matlab.md)
    * [Demo1](demo1.md)
