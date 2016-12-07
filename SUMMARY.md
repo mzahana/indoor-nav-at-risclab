@@ -26,5 +26,5 @@
        * [ROS Basics](ros_basics.md)
        * [ROS with Simulation](ros_with_simulation.md)
        * [ROS with Hardware Experiment](ros_with_hardware_experiment.md)
-   * Setup HIL with PX4 and V-REP
+   * [Setup HIL with PX4 and V-REP](setup_hil_with_px4_and_v-rep.md)
 
