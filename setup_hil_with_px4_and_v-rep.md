@@ -6,4 +6,5 @@
  * [V-REP](http://www.coppeliarobotics.com/downloads.html) installed
  * V-REP HIL scene
  * Pixhawk loaded with PX4 HIL firmware
+ * setup script ```vrep_px4_hil_setup.sh```
 
