@@ -27,7 +27,7 @@ Once the installation is successful, connect Pixhawk via USB. Run `mavros to con
 roslaunch mavros px4.launch fcu_url:=/dev/ttyACM0:115200 gcs_url:=udp://@192.168.1.135
 ```
 
-In another terminal, run V-REP. Navigate to VREP main folder, then execute
+In another terminal, run V-REP:  Navigate to VREP main folder, then execute
 
 ```sh
 # cd /vrep/folder
