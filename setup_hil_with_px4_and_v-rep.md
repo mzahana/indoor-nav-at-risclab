@@ -40,7 +40,7 @@ In another terminal, run V-REP:  Navigate to VREP main folder, then execute
 ./vrep.sh
 ```
 
-Load the `px4_hil.ttt scene, and run it. You should see the main LED on Pixhawk go green. It means it's able to get xyz data (fake GPS).`
+Load the `px4_hil.ttt` scene, and run it. You should see the main LED on Pixhawk go green. It means it's able to get xyz data \(fake GPS\).
 
 ## Setup Shell Script
 
