@@ -15,9 +15,7 @@
 
 ## Setup
 
-Prepare the setup files as described in the below section. 
-
-
+Prepare the setup file as described in the below section.
 
 Open a new terminal, and define the setup variables: `VREP_ROOT` is the VREP main folder's path, `ROS_WORKSPACE` is the path to your catkin workspace. Finally, run the setup script \(see the code below\). Make sure you have internet connection.
 
