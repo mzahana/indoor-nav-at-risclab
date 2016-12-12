@@ -27,9 +27,11 @@ Open a new terminal, navigate to the setup file, and define the setup variables:
 
 Once the installation is successful, connect Pixhawk via USB. Run `mavros` to connect to Pixhawk,
 
-```sh
+```bash
 roslaunch mavros px4.launch fcu_url:=/dev/ttyACM0:115200 gcs_url:=udp://@192.168.1.135
 ```
+
+You may need to adjust USB address `/dev/ttyACM0:115200` and gas address `udp://@192.168.1.135` according to your setup.
 
 In another terminal, run V-REP:  Navigate to VREP main folder, then execute
 
