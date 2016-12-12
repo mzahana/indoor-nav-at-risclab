@@ -17,7 +17,7 @@
 
 Prepare the setup file as described in the below section.
 
-Open a new terminal, navigate to the setup file, and define the setup variables: `VREP_ROOT` is the VREP main folder's path, `ROS_WORKSPACE` is the path to your catkin workspace. Finally, run the setup script \(see the code below\). **Make sure you have internet connection and root access via `sudo`**.
+Open a new terminal, navigate to the setup file, and define the setup variables: `VREP_ROOT` is the VREP main folder's path, `ROS_WORKSPACE` is the path to your catkin workspace. Finally, run the setup script \(see the code below\). **Make sure you have internet connection and root access via **`sudo`.
 
 ```sh
 # export VREP_ROOT=path/to/vrep/folder
@@ -25,7 +25,7 @@ Open a new terminal, navigate to the setup file, and define the setup variables:
 ./vrep_px4_hil_setup.sh
 ```
 
-Once the installation is successful, connect Pixhawk via USB. Run `mavros to connect to Pixhawk,`
+Once the installation is successful, connect Pixhawk via USB. Run `mavros` to connect to Pixhawk,
 
 ```sh
 roslaunch mavros px4.launch fcu_url:=/dev/ttyACM0:115200 gcs_url:=udp://@192.168.1.135
