@@ -10,12 +10,11 @@
 * Pixhawk loaded with PX4 HIL firmware
 * setup script `vrep_px4_hil_setup.sh` \(see the code below\)
 
-
 * Internet connection
 
 ## Setup
 
-Open a new terminal, and define the setup variables: `VREP_ROOT` is the VREP main folder's path, `ROS_WORKSPACE` is the path to your catkin workspace. Finally, run the setup script. Make sure you have internet connection.
+Open a new terminal, and define the setup variables: `VREP_ROOT` is the VREP main folder's path, `ROS_WORKSPACE` is the path to your catkin workspace. Finally, run the setup script \(see the code below\). Make sure you have internet connection.
 
 ```sh
 # export VREP_ROOT=path/to/vrep/folder
@@ -38,9 +37,9 @@ In another terminal, run V-REP:  Navigate to VREP main folder, then execute
 
 Load the `px4_hil.ttt scene, and run it. You should see the main LED on Pixhawk go green. It means it's able to get xyz data (fake GPS).`
 
-You can create the setup file by copying the following shell code to a file, and then, run it. Make sure it has `.sh extension, and make it executable : chmod +x <filename.sh>.`
+## Setup Shell Script
 
-## Setup Shell Code
+You can create the setup file by copying the following shell code to a file, and then, run it. Make sure it has `.sh` extension, and make it executable : `chmod +x <filename.sh>`.
 
 ```bash
 #!/bin/bash
