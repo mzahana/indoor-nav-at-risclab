@@ -105,10 +105,13 @@ if [ -d "mavlink" ]; then
     rm -r -f mavlink
 fi
 
-cd "${ROS_WORKSPACE1}"
+# Create Python-packages folder,
+cd ~
+# check if directory exists
+if [ ! -d "python-packages" ]; then
+    mkdir -p python-packages/src
+fi
 
-#catkin_init_workspace
-#catkin build
 
 # Get some required python packages
 sudo pip install future
@@ -142,12 +145,6 @@ rosdep install --from-paths src --ignore-src -y
 
 
 # Get supporting package for vrep ros interface
-cd ~
-# check if directory exists
-if [ ! -d "python-packages" ]; then
-    mkdir python-packages
-fi
-
 cd ~/python-packages
 # Remove old package if exists
 if [ -d "v_repStubsGen" ]; then
