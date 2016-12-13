@@ -91,16 +91,16 @@ fi
 
 # Remove old mavros package
 # remove mavros if installed by apt-get
-sudo apt-get remove ros-indigo-mavros -y
-sudo apt-get remove ros-indigo-mavros-extras -y
-sudo apt-get remove ros-indigo-mavros-msgs -y
+sudo apt-get remove ros-indigo-mavros
+sudo apt-get remove ros-indigo-mavros-extras
+sudo apt-get remove ros-indigo-mavros-msgs
 if [ -d "mavros" ]; then
     rm -r -f mavros
 fi
 
 # Remove mavlink package
 # remove mavlink if installed by apt-get
-sudo apt-get remove ros-indigo-mavlink -y
+sudo apt-get remove ros-indigo-mavlink
 if [ -d "mavlink" ]; then
     rm -r -f mavlink
 fi
@@ -109,7 +109,7 @@ fi
 cd ~
 # check if directory exists
 if [ ! -d "python-packages" ]; then
-    mkdir -p python-packages/src
+    mkdir -p "python-packages/src"
 fi
 
 
@@ -159,6 +159,7 @@ export PYTHONPATH=$PYTHONPATH:~/python-packages
 # Build ros/catkin workspace
 #VERBOSE=1 catkin build -v -p1 -j1 --no-status
 #catkin build -p1 -j1
+cd "${ROS_WORKSPACE1}"
 catkin build
 
 
