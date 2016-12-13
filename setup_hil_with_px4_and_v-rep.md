@@ -91,16 +91,16 @@ fi
 
 # Remove old mavros package
 # remove mavros if installed by apt-get
-sudo apt-get remove ros-indigo-mavros
-sudo apt-get remove ros-indigo-mavros-extras
-sudo apt-get remove ros-indigo-mavros-msgs
+sudo apt-get remove ros-indigo-mavros -y
+sudo apt-get remove ros-indigo-mavros-extras -y
+sudo apt-get remove ros-indigo-mavros-msgs -y
 if [ -d "mavros" ]; then
     rm -r -f mavros
 fi
 
 # Remove mavlink package
 # remove mavlink if installed by apt-get
-sudo apt-get remove ros-indigo-mavlink
+sudo apt-get remove ros-indigo-mavlink -y
 if [ -d "mavlink" ]; then
     rm -r -f mavlink
 fi
