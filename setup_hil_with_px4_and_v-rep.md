@@ -114,9 +114,10 @@ fi
 
 
 # Get some required python packages
-sudo pip install future
 sudo apt-get update
-sudo apt-get install python-tempita python-catkin-tools python-rosinstall-generator -y
+sudo apt-get install python-tempita python-catkin-tools python-rosinstall-generator python-pip -y
+sudo pip install future
+
 
 # Clone fresh vrep ros interface package
 cd "${ROS_WORKSPACE1}/src"
