@@ -6,10 +6,10 @@
 * [ROS indigo](http://wiki.ros.org/indigo/Installation/Ubuntu) installed
 * CATKIN workspace
 * [V-REP](http://www.coppeliarobotics.com/downloads.html) installed
-* V-REP HIL scene: can be found in the `catkin_ws/src/v_repExtRosInterface/vrep_hil`  folder 
+* V-REP HIL scene: can be found in the `catkin_ws/src/v_repExtRosInterface/vrep_hil`  folder after you run the setup .sh script
 * Pixhawk loaded with PX4 HIL firmware \(use[ v1.4.4](https://github.com/PX4/Firmware/releases/tag/v1.4.4)\)
 
-* customized .params file for appropriate Pixhawk parameters configurations: can be found in the `catkin_ws/src/v_repExtRosInterface/vrep_hil`  folder
+* customized .params file for appropriate Pixhawk parameters configurations: can be found in the `catkin_ws/src/v_repExtRosInterface/vrep_hil`  folder after you run the setup .sh script
 
 * setup script `vrep_px4_hil_setup.sh` \(see the code below\)
 
