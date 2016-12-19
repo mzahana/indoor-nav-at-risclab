@@ -7,11 +7,10 @@
 * CATKIN workspace
 * [V-REP](http://www.coppeliarobotics.com/downloads.html) installed
 * V-REP HIL scene
-* Pixhawk loaded with PX4 HIL firmware \(use the customized .params file for appropriate Pixhawk parameters configurations\)
+* Pixhawk loaded with PX4 HIL firmware \(use[ v1.4.4](https://github.com/PX4/Firmware/releases/tag/v1.4.4)\) \(use the customized .params file for appropriate Pixhawk parameters configurations\)
 * setup script `vrep_px4_hil_setup.sh` \(see the code below\)
 
 * Internet connection
-
 
 ## Setup
 
