@@ -1,4 +1,6 @@
-# PX4 Software in the loop with Gazebo + ROS
+# PX4 Software in the loop with Gazebo + ROSR
+
+[Reference page](https://dev.px4.io/simulation-ros-interface.html)
 
 ## Installation
 
@@ -47,8 +49,6 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 roslaunch px4 posix_sitl.launch
 ```
-
-
 
 
 
