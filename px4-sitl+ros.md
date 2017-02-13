@@ -1,7 +1,5 @@
 # PX4 Software in the loop with Gazebo + ROS
 
-
-
 ## Installation
 
 **MAKE SURE YOU INSTALLED ROS**
@@ -25,7 +23,7 @@ sudo apt-get update
 Install **Gazebo7:**
 
 ```bash
-sudo apt-get install ros-$(ROS_DISTRO)-gazebo7-ros-pkgs
+sudo apt-get install ros-$ROS_DISTRO-gazebo7-ros-pkgs
 ```
 
 
