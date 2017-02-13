@@ -41,7 +41,7 @@ cd Firmware
 
 build,
 
-```
+```bash
 make posix_sitl_default gazebo
 source ~/catkin_ws/devel/setup.bash    // (optional)
 source Tools/setup_gazebo.bash $(pwd) $(pwd)/build_posix_sitl_default
