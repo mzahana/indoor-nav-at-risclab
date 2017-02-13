@@ -1,5 +1,9 @@
 # PX4 Software in the loop with Gazebo + ROSR
 
+
+
+**NOTE: **This only runs on Linux
+
 [Reference page](https://dev.px4.io/simulation-ros-interface.html)
 
 ## Installation
