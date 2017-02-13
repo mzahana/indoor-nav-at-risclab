@@ -2,7 +2,9 @@
 
 ## Installation
 
-**MAKE SURE YOU INSTALLED ROS**
+\***MAKE SURE YOU INSTALLED ROS**
+
+[**\*MAKE SURE YOU INSTALLED MAVROS**](https://github.com/mavlink/mavros/blob/master/mavros/README.md#installation)
 
 Remove old gazebo
 
