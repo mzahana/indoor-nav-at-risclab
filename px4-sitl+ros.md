@@ -1,7 +1,5 @@
 # PX4 Software in the loop with Gazebo + ROSR
 
-
-
 **NOTE: **This only runs on Linux
 
 [Reference page](https://dev.px4.io/simulation-ros-interface.html)
@@ -53,6 +51,14 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 roslaunch px4 posix_sitl.launch
 ```
+
+Then, you can run mavros to communicate to PX4 via ROS,
+
+```bash
+roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557" gcs_url:=udp://@127.0.0.1
+```
+
+The previous command assumes that you run everything on the same machine, hence `127.0.0.1`
 
 
 
