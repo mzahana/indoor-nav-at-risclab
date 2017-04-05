@@ -20,7 +20,8 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   git checkout risc_branch
   ```
 
-* install **mavros** and **mavlink** packages from source. If the binaries are installed using `apt-get install`, make sure you uninstall them using `apt-get remove`
+* Do this step on the Linux machine and ODROID.  
+  Install **mavros** and **mavlink** packages from source. If the binaries are installed using `apt-get install`, make sure you uninstall them using `apt-get remove`
 
   ```bash
   cd ~/catkin_ws
@@ -36,6 +37,10 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   wstool merge -t src /tmp/mavros.rosinstall
   wstool update -t src -j4
   rosdep install --from-paths src --ignore-src -y
+
+  cd src/mavros
+  git checkout mocap_timestamp
+  cd ../..
 
   catkin build
 
