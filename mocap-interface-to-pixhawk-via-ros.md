@@ -36,6 +36,12 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   wstool merge -t src /tmp/mavros.rosinstall
   wstool update -t src -j4
   rosdep install --from-paths src --ignore-src -y
+
+  catkin build
+
+  #Make sure that you use setup.bash or setup.zsh from workspace.
+  #    Else rosrun can't find nodes from this workspace.
+  source devel/setup.bash
   ```
 
 
