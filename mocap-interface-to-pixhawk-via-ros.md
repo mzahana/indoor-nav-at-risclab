@@ -15,9 +15,20 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 * On the Linux machine, clone the `optitrack` ROS package
 
   ```sh
+  pip install optirx --user
   cd catkin_ws/src
   git clone https://github.com/risckaust/optitrack.git
+  cd optitrack
   git checkout risc_branch
+  cd ..
+  git clone https://github.com/gt-ros-pkg/hrl-kdl.git -b indigo-devel
+  rosdep update
+  rosdep install --from-paths . --ignore-src --rosdistro indigo -y
+  cd ~/catkin_ws
+  catkin build
+
+  source devel/setup.bash
+
   ```
 
 * Do this step on the Linux machine and ODROID.  
@@ -47,6 +58,11 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   #Make sure that you use setup.bash or setup.zsh from workspace.
   #    Else rosrun can't find nodes from this workspace.
   source devel/setup.bash
+  ```
+
+* On Linux machine, run optitrack node to get mocap data into ROS,
+  ```sh
+  roslaunch
   ```
 
 
