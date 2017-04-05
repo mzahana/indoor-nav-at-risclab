@@ -63,7 +63,22 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 * On Linux machine, run optitrack node to get mocap data into ROS,
 
   ```sh
-  roslaunch
+  roslaunch optitrack optitrack_pipeline.launch iface:=eth1
+  ```
+
+  adjust `eth1` according to your network interface. You can check using `ifconfig` command.
+
+In this case, the linux machine is ROS master
+
+* on ODROID, run mavros, assuming roscore is running on the linux machine with, for example, `IP=192.168.1.12`
+  ```sh
+  export ROS_MASTER_URI:=http://192.168.1.12:11311
+  roslaunch mavros px4.launch fcu_url:=/dev/ttyUSB0:921600 gcs_url:=udp://@192.168.1.12
+  ```
+
+* on the linux machine, run the intermediate node which transfer mocap date from optitrack node to mavros,
+  ```sh
+
   ```
 
 
