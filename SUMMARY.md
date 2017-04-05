@@ -19,7 +19,7 @@
     * [Off-board control from MATLAB](off-board_control_from_matlab.md)
 * [Companion Computers](companion_computers.md)
   * [ODROID XU4 setup](companion_computer_odroid_xu4_setup.md)
-* [Special Tutorials](special_tutorials.md)
+* [Tutorials](special_tutorials.md)
   * [Image live stream from ODROID to MATLAB](image_live_stream_from_odroid_to_matlab.md)
   * [Demo1](demo1.md)
   * [ROS-Tutorial](ros-tutorial.md)
@@ -27,5 +27,6 @@
     * [ROS with Simulation](ros_with_simulation.md)
     * [ROS with Hardware Experiment](ros_with_hardware_experiment.md)
   * [Setup HIL with PX4 and V-REP](setup_hil_with_px4_and_v-rep.md)
+  * [MOCAP Interface to Pixhawk via ROS](mocap-interface-to-pixhawk-via-ros.md)
 * [PX4 SITL+ROS](px4-sitl+ros.md)
 
