@@ -13,6 +13,7 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 ## Setup
 
 * On the Linux machine, clone the `optitrack` ROS package
+
   ```sh
   cd catkin_ws/src
   git clone https://github.com/risckaust/optitrack.git
@@ -20,12 +21,21 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   ```
 
 * install mavros and mavlink packages from source. If the binaries are installed using `apt-get install`, make sure you uninstall them using `apt-get remove`
+
   ```bash
   cd ~/catkin_ws
   catkin init
   wstool init src
+  # we use the Kinetic reference for all ROS distros as it's not distro-specific and up to date
+  rosinstall_generator --rosdistro kinetic mavlink | tee /tmp/mavros.rosinstall
+
   # Install MAVROS: get source (upstream - released)
   rosinstall_generator --upstream mavros | tee -a /tmp/mavros.rosinstall
+
+  # Create workspace & deps
+  wstool merge -t src /tmp/mavros.rosinstall
+  wstool update -t src -j4
+  rosdep install --from-paths src --ignore-src -y
   ```
 
 
