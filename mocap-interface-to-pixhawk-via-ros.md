@@ -2,6 +2,8 @@
 
 This tutorial explains how to get OptiTrack data to ROS, and feeding this data to Pixhawk for indoor positioning.
 
+![](/assets/Screen Shot 2017-04-06 at 11.07.45 AM.png)
+
 ## Prerequisites
 
 * Wifi router \(recommended 5Ghz\)
