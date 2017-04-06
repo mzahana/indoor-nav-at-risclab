@@ -7,7 +7,7 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 ## Prerequisites
 
 * Wifi router \(recommended 5Ghz\)
-* MOCAP machine connected to router \(wide or wirless\)
+* MOCAP machine connected to router \(wired or wirless\)
 * Linux machine with ROS
 
 * ODROID that its connected to Pixhawk via serial interface, with mavros installed as described below. It also should be connected to the WiFi router
