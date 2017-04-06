@@ -10,6 +10,8 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 
 * ODROID that its connected to Pixhawk via serial interface, with mavros installed as described below. It also should be connected to the WiFi router
 
+* Pixhawk with PX4 firmware, using LPE estimator. **NOTE**: EKF2 estimator does not support MOCAP yet.
+
 ## Setup
 
 * On the Linux machine, clone the `optitrack` ROS package
