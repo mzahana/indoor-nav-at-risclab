@@ -46,10 +46,11 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   rosinstall_generator --rosdistro kinetic mavlink | tee /tmp/mavros.rosinstall
 
   # Install MAVROS: get source (upstream - released)
-  rosinstall_generator --upstream mavros | tee -a /tmp/mavros.rosinstall
+  cd src
+  git clone https://github.com/risckaust/mavros.git
+  cd ..
 
   # Create workspace & deps
-  wstool merge -t src /tmp/mavros.rosinstall
   wstool update -t src -j4
   rosdep install --from-paths src --ignore-src -y
 
