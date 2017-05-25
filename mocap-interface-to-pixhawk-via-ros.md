@@ -69,10 +69,10 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 * On Linux machine, run optitrack node to get mocap data into ROS,
 
   ```sh
-  roslaunch optitrack optitrack_pipeline.launch iface:=eth1
+  roslaunch optitrack optitrack_pipeline.launch iface:=eth0
   ```
 
-  adjust `eth1` according to your network interface. You can check using `ifconfig` command.
+  adjust `eth0` according to your network interface. You can check using `ifconfig` command.
 
 In this case, the linux machine is ROS master
 
