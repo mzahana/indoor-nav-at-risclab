@@ -14,9 +14,13 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 
 * Pixhawk with PX4 firmware, using LPE estimator. **NOTE**: EKF2 estimator does not support MOCAP yet.
 
+* ROS Indigo on both Linux machine and Odroid.
+
 ## Setup
 
-* On the Linux machine, clone the `optitrack` ROS package
+* Make sure that you remove any previous `mavros `and `mavlink `packages that were installed either from source or using `apt-get`
+
+* On the Linux machine, clone the `optitrack` ROS package, 
 
   ```sh
   pip install optirx --user
@@ -25,37 +29,35 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   git clone https://github.com/gt-ros-pkg/hrl-kdl.git -b indigo-devel
   cd optitrack
   git checkout risc_branch
-  cd ..
-
-  rosdep update
-  rosdep install --from-paths . --ignore-src --rosdistro indigo -y
   cd ~/catkin_ws
-  catkin build
-
-  source devel/setup.bash
   ```
 
-* Do this step on the Linux machine and ODROID.  
+* **Do this step on both Linux machine and ODROID.**  
   Install **mavros** and **mavlink** packages from source. If the binaries are installed using `apt-get install`, make sure you uninstall them using `apt-get remove`
 
   ```bash
+  cd ~/catkin_ws/src
+  rm .rosinstall
   cd ~/catkin_ws
   catkin init
   wstool init src
   # we use the Kinetic reference for all ROS distros as it's not distro-specific and up to date
-  rosinstall_generator --rosdistro kinetic mavlink | tee /tmp/mavros.rosinstall
+  rosinstall_generator --rosdistro kinetic mavlink | tee /tmp/mavlink.rosinstall
 
-  # Install MAVROS: get source (upstream - released)
+  # Install RISC version of MAVROS
   cd src
   git clone https://github.com/risckaust/mavros.git
-  cd ..
+  cd mavros
+  git checkout mocap_timestamp
+  cd ~/catkin_ws
 
-  # Create workspace & deps
+  # dowlnload mavlink, and update deps
+  wstool merge -t src /tmp/mavlink.rosinstall
   wstool update -t src -j4
   rosdep install --from-paths src --ignore-src -y
 
   cd src/mavros
-  git checkout mocap_timestamp
+
   cd ../..
 
   catkin build
