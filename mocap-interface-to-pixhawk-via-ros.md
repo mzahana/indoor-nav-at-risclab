@@ -59,6 +59,11 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 
   cd ~/catkin_ws
 
+  # on ODROID, you might need to build mavlink separetely first
+  # catkin build mavlink
+  # on ODROID use
+  # catkin build -j2
+
   catkin build
 
   #Make sure that you use setup.bash or setup.zsh from workspace.
