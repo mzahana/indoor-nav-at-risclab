@@ -18,9 +18,9 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
 
 ## Setup
 
-* Make sure that you remove any previous `mavros `and `mavlink `packages that were installed either from source or using `apt-get`
+* Make sure that you remove any previous `mavros`and `mavlink`packages that were installed either from source or using `apt-get`
 
-* On the Linux machine, clone the `optitrack` ROS package, 
+* On the Linux machine, clone the `optitrack` ROS package,
 
   ```sh
   pip install optirx --user
@@ -56,9 +56,7 @@ This tutorial explains how to get OptiTrack data to ROS, and feeding this data t
   wstool update -t src -j4
   rosdep install --from-paths src --ignore-src -y
 
-  cd src/mavros
-
-  cd ../..
+  cd ~/catkin_ws
 
   catkin build
 
