@@ -84,15 +84,22 @@ In this case, the linux machine is ROS master
 * on ODROID, run mavros, assuming roscore is running on the linux machine with, for example, `IP=192.168.1.12`
 
   ```sh
-  export ROS_MASTER_URI:=http://192.168.1.12:11311
+  export ROS_MASTER_URI=http://192.168.1.12:11311
   roslaunch mavros px4.launch fcu_url:=/dev/ttyUSB0:921600 gcs_url:=udp://@192.168.1.12
   ```
 
-* on the linux machine, in separate terminal,  run the intermediate node which transfer mocap date from optitrack node to mavros,
+* on the linux machine, in separate terminal,  run the intermediate node which transfer mocap date from optitrack node to mavros. This assumes that the rigid body has an index 0, and there no namspace for mavros on ODROID
 
   ```sh
   rosrun optitrack mocap_pose.py
   ```
+
+* if you wish to publish to a specific mavros namespace, e.g. ` /uav1/mavros/mocap/pos`
+  and a specific rigidbody, use the `one_rigidbody.launch ` file  
+  `roslaunch optitrack one_rigidbody.launch ns:="defender1" id:=0`
+
+* to publish to mutliple vehicles, look at  
+  `multi_rigidbody2mavros.launch`
 
 Now, Pixhawk should be able to get mocap data
 
