@@ -24,9 +24,17 @@ This tutorial explains the steps required to fly a simulated quadrotor in the Ga
 
 In this tutorial, it is assumed that the reader is familiar with basic linux commands, ROS basics, ROS & Gazebo are installed.
 
-NOTE: Although ROS Indigo is becoming an old version, we will continue to use it as all our tested software were built upon ROS indigo. The tutorial will be updated in case a newer ROS version is validated.
+**NOTE**: Although ROS Indigo is becoming an old version, we will continue to use it as all our tested software were built upon ROS indigo. This tutorial will be updated once a newer ROS version is validated.
 
 ## MAVROS Installation
 
-Pleas follow the Binary Installation instructions to install mavros. Remember to change ROS distribution from Kinetic
+Pleas follow the [Binary Installation](https://github.com/mavlink/mavros/blob/master/mavros/README.md#binary-installation-deb) instructions to install mavros. Remember to change ROS distribution from Kinetic to Indigo
+```
+sudo apt-get install ros-indigo-mavros ros-indigo-mavros-extras
+```
 
+## Joystick Package Installation & Usage
+This package is needed to interface a joystick to ROS. To install this package, simply execute the following command in the terminal.
+```
+sudo apt-get install ros-indigo-joy
+```
