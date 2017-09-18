@@ -28,5 +28,11 @@
     * [ROS with Hardware Experiment](ros_with_hardware_experiment.md)
   * [Setup HIL with PX4 and V-REP](setup_hil_with_px4_and_v-rep.md)
   * [MOCAP Interface to ROS](mocap-interface-to-pixhawk-via-ros.md)
+  * RISC Boot Camp
+    * ROS and Gazebo Tutorials
+    * Quadrotor Assembly 
+    * [Software in the Loop Joystick Flight](software-in-the-loop-joystick-flight.md)
+    * Motion Capture setup and WiFi Communications
+    * Indoor Flight with Joystick
 * [PX4 SITL+ROS](px4-sitl+ros.md)
 
