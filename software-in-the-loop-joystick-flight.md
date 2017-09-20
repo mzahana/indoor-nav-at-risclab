@@ -77,13 +77,40 @@ pxh> commander land
 
 If the previous actions succeed the the installation is OK. Next, we will run ROS and a MAVROS node which will allow us to interface the autopilot with ROS.
 
-## Iterfacing with ROS
+## Interfacing with ROS
 Assuming that you already created your ```catkin_ws```, we will create symbolic links to the PX4 autopilot and the PX4 simulation package folders into our ROS workspace. This makes it easy to launch everything (Gazebo+PX4 app+ ROS+MAVROS) at once.
 ```
+# go to the workspace folder
 cd ~/catkin_ws/src
+# create symlink to the px4 package
 ln -s ~/src/Firmware/ px4
+# create symlink to the simulatio package
 ln -s ~/src/Firmware/Tools/sitl_gazebo/ mavlink_sitl_gazebo
+# re-build your workspace
+cd ~/catkin_ws
+catkin build
+# always source your workspace after each build, so changes take effect.
+source devel/setup.bash
 ```
+
+Now, you are ready to launch Gazebo+PX4 SITL app+ROS+MAVROS. To do that, execute the following command.
+```
+roslaunch px4 mavros_posix_sitl.launch fcu_url:="udp://:14540@127.0.0.1:14557"
+```
+**TO BE DONE**: explain the previous command.
+
+You should be able to see ```/mavros``` topics using ```rostopic list``` in a new terminal. Also if you execute ``` rosnode list``` in a new terminal, yu should see
+```
+$ rosnode list
+/gazebo
+/mavros
+/rosout
+```
+To double check that MAVROS node is connected properly to the PX4 SITL app, try to ```echo``` some topics *e.g.*
+```
+rostopic echo /mavros/imu/data
+```
+
 ## Joystick Package Installation & Usage
 
 This package is needed to interface a joystick to ROS. To install this package, simply execute the following command in the terminal.
