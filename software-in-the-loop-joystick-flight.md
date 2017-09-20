@@ -23,13 +23,9 @@ This tutorial explains the steps required to fly a simulated quadrotor in the Ga
 
 **NOTE: In this tutorial, it is assumed that the reader is familiar with basic linux commands, ROS basics, ROS & Gazebo are installed.**
 
-
-
 ## Setup Steps
 
 Please follow the following steps carefully to setup the development enviroment which includes the software-in-the-loop simulation. It is assumed that the following steps are done on a clean Ubuntu 16.04 OS image.
-
-
 
 Open a new terminal window \(you can hit ctrl+alt+t to bring up one\). then, please follow the steps in this [link](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#permission-setup), starting by the Persmission Setup section. Cover the installation instructions in following sections.
 
@@ -42,34 +38,28 @@ Open a new terminal window \(you can hit ctrl+alt+t to bring up one\). then, ple
 * Skip Gazebo section as it will be done in next step
 * [ROS/Gazebo](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#rosgazebo)
 * MAVROS installation from source. After you build MAVROS using `catkin build` , install the GeographicLib
+
   ```
   cd ~/catkin_ws/src/mavros/mavros/scripts
   ./install_geographiclib_datasets.sh
-  # or, if you get errors like, cannot create directories....
+  # or, if you get errors like, cannot create directories...., try,
   # sudo ./install_geographiclib_datasets.sh
-  # go back to main folder
+  # then, go back to main folder
   cd ~/catkin_ws
   ```
 
-  Then, rebuild MAVROS, ` catkin build`
+  Then, rebuild MAVROS, `catkin build`
 
-* 
+* [Nuttx based Hardware](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#nuttx-based-hardware). Go through all installation instructions. If you get some messages about not found directorires, ignore it.
 
-
-## MAVROS Installation
-
-Pleas follow the [Binary Installation](https://github.com/mavlink/mavros/blob/master/mavros/README.md#binary-installation-deb) instructions to install mavros. Remember to change ROS distribution from Kinetic to Indigo
-
-```
-sudo apt-get install ros-indigo-mavros ros-indigo-mavros-extras
-```
+* Install QGroundcotrol from [here](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux). Use the AppImage option.
 
 ## Joystick Package Installation & Usage
 
 This package is needed to interface a joystick to ROS. To install this package, simply execute the following command in the terminal.
 
 ```
-sudo apt-get install ros-indigo-joy
+sudo apt-get install ros-kinetic-joy
 ```
 
 
