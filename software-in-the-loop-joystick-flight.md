@@ -112,7 +112,11 @@ rostopic echo /mavros/imu/data
 ```
 you should see the ```imu``` data changing.
 
-Now, you can monitor the dorne's states and control it via a mavros node. in this tutorial, we are going to control the quadcopter's position via a joystick. There is a flight mode in PX4 autopilot which is called **OFFBOARD** mode. This mode allows the autopilot to accept specific external commands such as position setpoints, velocity, and attitude setpoints. You cannot mix between
+Now, you can monitor the dorne's states and control it via a mavros node.
+* In this tutorial, we are going to control the quadcopter's position via a joystick.
+* There is a flight mode in PX4 autopilot which is called **OFFBOARD** mode. This mode allows the autopilot to accept specific external commands such as position, velocity, and attitude setpoints. You cannot mix between different setpoints *e.g.* velocity setpoints in x/y and position in z.
+* A MAVROS node provides setpoint plugins which will listen to a user input on specific mavros setpoint topics. Once the user publishes to those specific setpoint topics, the mavros node will transfer thos setpoints to the autopilot to execute.
+* If the autopilot's flight mode is **OFFBOARD**, the autopilot will accept the received setpoints and execute them.
 ## Joystick Package Installation & Usage
 
 This package is needed to interface a joystick to ROS. To install this package, simply execute the following command in the terminal.
