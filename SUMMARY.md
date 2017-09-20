@@ -32,7 +32,7 @@
     * ROS and Gazebo Tutorials
     * Quadrotor Assembly 
     * [Software in the Loop Joystick Flight](software-in-the-loop-joystick-flight.md)
-    * Motion Capture setup and WiFi Communications
+    * [Motion Capture setup and WiFi Communications](motion-capture-setup-and-wifi-communications.md)
     * Indoor Flight with Joystick
 * [PX4 SITL+ROS](px4-sitl+ros.md)
 

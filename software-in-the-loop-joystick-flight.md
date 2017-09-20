@@ -67,12 +67,22 @@ In this step, we will validate that the PX4 SITL app and gazebo work as expected
 cd ~/src/Frimware
 make posix_sitl_default gazebo
 ```
-You should be able to see an Iris model loaded in gazebo, and the ```pxh> ``` command line in the terminal.
-To takeoff/land the quadcopter, execute the following command
+After sometime, you should be able to see an Iris model loaded in gazebo, and the ```pxh> ``` command line in the terminal. Just hit <Enter couple of times if you don't see the ```pxh> ``` command line, and it should appear.
+To takeoff/land the quadcopter, execute the following commands in the terminal
 
 ```
 pxh> commander takeoff
 pxh> commander land
+```
+
+If the previous actions succeed the the installation is OK. Next, we will run ROS and a MAVROS node which will allow us to interface the autopilot with ROS.
+
+## Iterfacing with ROS
+Assuming that you already created your ```catkin_ws```, we will create symbolic links to the PX4 autopilot and the PX4 simulation package folders into our ROS workspace. This makes it easy to launch everything (Gazebo+PX4 app+ ROS+MAVROS) at once.
+```
+cd ~/catkin_ws/src
+ln -s ~/src/Firmware/ px4
+ln -s ~/src/Firmware/Tools/sitl_gazebo/ mavlink_sitl_gazebo
 ```
 ## Joystick Package Installation & Usage
 
