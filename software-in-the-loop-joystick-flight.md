@@ -54,6 +54,26 @@ Open a new terminal window \(you can hit ctrl+alt+t to bring up one\). then, ple
 
 * Install QGroundcotrol from [here](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux). Use the AppImage option.
 
+* Now, you need to clone the autopilot firmware source, PX4.
+```sh
+cd ~
+mkdir src
+git clone https://github.com/PX4/Firmware.git
+```
+
+## Testing SITL with Gazebo (No ROS)
+In this step, we will validate that the PX4 SITL app and gazebo work as expected. To run the SITL app and Gazebo, execute the following commands in a new terminal
+```
+cd ~/src/Frimware
+make posix_sitl_default gazebo
+```
+You should be able to see an Iris model loaded in gazebo, and the ```pxh> ``` command line in the terminal.
+To takeoff/land the quadcopter, execute the following command
+
+```
+pxh> commander takeoff
+pxh> commander land
+```
 ## Joystick Package Installation & Usage
 
 This package is needed to interface a joystick to ROS. To install this package, simply execute the following command in the terminal.
@@ -62,5 +82,5 @@ This package is needed to interface a joystick to ROS. To install this package, 
 sudo apt-get install ros-kinetic-joy
 ```
 
-
+You will need to setup permissions before you can use your joystick. For that, please find details here.
 
