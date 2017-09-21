@@ -398,7 +398,7 @@ cd launch
 gedit joystick_flight.launch
 ```
 
-Then, copy the following lines to the lacunh file
+Then, copy the following lines to the launch file
 ```
 <launch>
 
