@@ -21,7 +21,7 @@ This tutorial explains the steps required to fly a simulated quadrotor in the Ga
 
 * **Joy** package: Joystick ROS interface
 
-**NOTE: In this tutorial, it is assumed that the reader is familiar with basic linux commands, ROS basics, ROS & Gazebo are installed.**
+**NOTE: In this tutorial, it is assumed that the reader is familiar with basic linux commands, ROS basics.**
 
 ## Setup Steps
 
