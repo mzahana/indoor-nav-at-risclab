@@ -186,3 +186,7 @@ buttons: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 Now, let's write a custom node that reads joystick's commands and convert them to position setpoints to control the quadcopter's poisiton in Gazebo.
 
 ## Custom Setpoint Node
+Now, it's time for some coding!
+You will write a ROS node in Python that listens to the ```/joy``` topic that is published by the ```joy``` node, and convrets the joystick commands to xyz position setpoints. Then, it will publish the calculated position setpoints into ```/mavros/setpoint_raw/local```
+
+Publishing to ```/mavros/setpoint_raw/local``` topic is not enough to get the autopilot to track the setpoints. It has to be in **OFFBOARD** mode. So, in your custom node, you will have to send a signal to activate this mode, only once. You need to **remember** that for this mode to work, you will need to be publishing setpoints beforehand, then, activate it, and continue publsihing setpoints. **If you don't publish setpoints at more than 2Hz, it will go into a failsafe mode**.
