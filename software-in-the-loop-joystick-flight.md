@@ -281,6 +281,8 @@ class fcuModes:
 class Controller:
 	# initialization method
 	def __init__(self):
+		# Drone state
+		self.state = State()
 		# Instantiate a setpoints message
 		self.sp 		= PositionTarget()
 		# set the flag to use position setpoints and yaw angle
@@ -320,6 +322,10 @@ class Controller:
 	def joyCb(self, msg):
 		self.joy_msg = msg
 
+	## Drone State callback
+	def stateCb(self, msg):
+		self.state = msg
+
 	## Update setpoint message
 	def updateSp(self):
 		x = -1.0*self.joy_msg.axes[0]
@@ -342,6 +348,9 @@ def main():
 	# ROS loop rate, [Hz]
 	rate = rospy.Rate(20.0)
 
+	# Subscribe to drone state
+	rospy.Subscriber('mavros/state', State, cnt.stateCb)
+
 	# Subscribe to drone's local position
 	rospy.Subscriber('mavros/local_position/pose', PoseStamped, cnt.posCb)
 	# subscribe to joystick topic
@@ -351,8 +360,10 @@ def main():
 	sp_pub = rospy.Publisher('mavros/setpoint_raw/local', PositionTarget, queue_size=1)
 
 
-	# Arm the drone
-	modes.setArm()
+	# Make sure the drone is armed
+	while not cnt.state.armed:
+		modes.setArm()
+		rate.sleep()
 	
 	# We need to send few setpoint messages, then activate OFFBOARD mode, to take effect
 	k=0
