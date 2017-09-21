@@ -167,3 +167,22 @@ rosparam set joy_node/dev "/dev/input/js0"
 # run the joy node
 rosrun joy joy_node
 ```
+In another terminal, echo the ```joy``` topic and move the joystick to see the topic changes
+```
+rostopic echo /joy
+```
+You should see an output similat to the following.
+```
+header: 
+  seq: 699
+  stamp: 
+    secs: 1505985329
+    nsecs: 399636113
+  frame_id: ''
+axes: [-0.0, -0.0, -0.8263657689094543]
+buttons: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+```
+
+Now, let's write a custom node that reads joystick's commands and convert them to position setpoints to control the quadcopter's poisiton in Gazebo.
+
+## Custom Setpoint Node
