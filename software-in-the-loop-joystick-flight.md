@@ -136,8 +136,34 @@ sudo apt-get install ros-kinetic-joy
 
 You will need to setup permissions before you can use your joystick.
 * Plug a joystick
-* check if Linux recognizes your joystick
+* Check if Linux recognizes your joystick
 ```
 ls /dev/input/
 ```
+You will get an output similar to the follwing.
+```
+by-id    event0  event2  event4  event6  event8  mouse0  mouse2  uinput
+by-path  event1  event3  event5  event7  js0     mice    mouse1
+```
+As you can see, the joystick device is referred to as ```jsX``` where ```X``` is the number of the joystick device.
+* Let's make the joystick accessible to the joy ROS node.
+```
+ ls -l /dev/input/jsX
+```
+You will see something similar to:
 
+    ```
+    crw-rw-XX- 1 root dialout 188, 0 2009-08-14 12:04 /dev/input/jsX
+    ```
+If XX is rw: the js device is configured properly.
+If XX is --: the js device is not configured properly and you need to: 
+```
+sudo chmod a+rw /dev/input/jsX
+```
+* test the ```joy``` node. First, start ```roscore``` in a terminal. In another terminal,
+```
+# set the device address
+rosparam set joy_node/dev "/dev/input/js0"
+# run the joy node
+rosrun joy joy_node
+```
