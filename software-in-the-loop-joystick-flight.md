@@ -6,7 +6,7 @@ This tutorial explains the steps required to fly a simulated quadrotor in the Ga
 
 ## Hardware Requirements
 
-* Desktop linux machine with minimum of 8GB RAM, 16GB recommended, Ubuntu 14.04 installed
+* Desktop linux machine with minimum of 8GB RAM, 16GB recommended, Ubuntu 16.04 installed
 * Joystick
 
 ## Software Requirements
