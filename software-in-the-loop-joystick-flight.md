@@ -68,7 +68,7 @@ In this step, we will validate that the PX4 SITL app and gazebo work as expected
 cd ~/src/Frimware
 make posix_sitl_default gazebo
 ```
-After sometime, you should be able to see an Iris model loaded in gazebo, and the ```pxh> ``` command line in the terminal. Just hit <Enter couple of times if you don't see the ```pxh> ``` command line, and it should appear.
+After sometime, you should be able to see an Iris model loaded in gazebo, and the ```pxh> ``` command line in the terminal. Just hit ENTER couple of times if you don't see the ```pxh> ``` command line, and it should appear.
 To takeoff/land the quadcopter, execute the following commands in the terminal
 
 ```
@@ -79,18 +79,18 @@ pxh> commander land
 If the previous actions succeed the the installation is OK. Next, we will run ROS and a MAVROS node which will allow us to interface the autopilot with ROS.
 
 ## Interfacing with ROS
-Assuming that you already created your ```catkin_ws```, we will create symbolic links to the PX4 autopilot and the PX4 simulation package folders into our ROS workspace. This makes it easy to launch everything (Gazebo+PX4 app+ ROS+MAVROS) at once.
+Assuming that you already created your ```catkin_ws```, we will create symbolic links to the PX4 autopilot and the PX4 simulation package folders into our ROS workspace. This makes it easy to launch everything (Gazebo+PX4 app+ ROS+MAVROS) from one place at once.
 ```
-# go to the workspace folder
+# Go to the workspace src folder
 cd ~/catkin_ws/src
 # create symlink to the px4 package
 ln -s ~/src/Firmware/ px4
-# create symlink to the simulatio package
+# Create symlink to the simulation package
 ln -s ~/src/Firmware/Tools/sitl_gazebo/ mavlink_sitl_gazebo
-# re-build your workspace
+# Build your workspace
 cd ~/catkin_ws
 catkin build
-# always source your workspace after each build, so changes take effect.
+# Always source your workspace after each build, so changes take effect.
 source devel/setup.bash
 ```
 
@@ -100,7 +100,7 @@ roslaunch px4 mavros_posix_sitl.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 ```
 **TO BE DONE**: explain the previous command.
 
-You should be able to see ```/mavros``` topics using ```rostopic list``` in a new terminal. Also if you execute ``` rosnode list``` in a new terminal, yu should see
+You should be able to see ```/mavros``` topics using ```rostopic list``` in a new terminal. Also if you execute ``` rosnode list``` in a new terminal, you should see
 ```
 $ rosnode list
 /gazebo
