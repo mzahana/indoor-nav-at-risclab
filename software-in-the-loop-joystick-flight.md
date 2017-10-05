@@ -390,6 +390,11 @@ if __name__ == '__main__':
 		pass
 ```
 
+* Make the python file an executable,
+```
+chmod +x setpoints_node.py
+```
+
 * **Make a launch folder. We will create a ROS laucnh file to run everything at once.**
 
 ```
