@@ -423,7 +423,7 @@ gedit joystick_flight.launch
 </launch>
 ```
 
-* In a fresh terminal, you can run the whole system by executing
+* **In a fresh terminal, you can run the whole system by executing**
 ```
 roslaunch mypackage joystick_flight.launch
 ```
