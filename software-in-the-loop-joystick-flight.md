@@ -191,7 +191,7 @@ Now, let's write a custom node that reads joystick's commands and convert them t
 You will write a ROS node in Python that listens to the ```/joy``` topic that is published by the ```joy``` node, and convrets the joystick commands to xyz position setpoints. Then, it will publish the calculated position setpoints into ```/mavros/setpoint_raw/local```
 
 Publishing to ```/mavros/setpoint_raw/local``` topic is not enough to get the autopilot to track the setpoints. It has to be in **OFFBOARD** mode. So, in your custom node, you will have to send a signal to activate this mode, only once. You need to **remember** that for this mode to work, you will need to be publishing setpoints beforehand, then, activate it, and continue publsihing setpoints. **If you don't publish setpoints at more than 2Hz, it will go into a failsafe mode**.
-* First, create your custom ROS package.
+* **First, create your custom ROS package.** The code is commented so you can get an idea of what each part does.
 ```
 cd ~/catkin_ws/src
 catkin_create_pkg mypackage std_msgs mavros_msgs roscpp rospy
@@ -201,7 +201,7 @@ mkdir scripts
 cd scripts
 gedit setpoints_node.py
 ```
-* copy the following code to the ```setpoints_node.py``` file
+* **copy the following code** to the ```setpoints_node.py``` file
 
 ```python
 #!/usr/bin/env python
@@ -390,7 +390,7 @@ if __name__ == '__main__':
 		pass
 ```
 
-* Make a launch folder. We will create a ROS laucnh file to run everything at once.
+* **Make a launch folder. We will create a ROS laucnh file to run everything at once.**
 
 ```
 cd ~/catkin_ws/src/mypackage
@@ -399,7 +399,8 @@ cd launch
 gedit joystick_flight.launch
 ```
 
-Then, copy the following lines to the launch file
+* **Then, copy the following lines to the launch file**
+
 ```
 <launch>
 
