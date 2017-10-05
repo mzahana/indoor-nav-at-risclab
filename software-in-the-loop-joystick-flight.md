@@ -428,4 +428,6 @@ gedit joystick_flight.launch
 roslaunch mypackage joystick_flight.launch
 ```
 
+* **DONE**. Now, you should see a quadcopter in Gazebo flying at a fixed height and responding to your joystick commands.
+
 **NOTE** always make sure that you have joystick permissions configured properly.
