@@ -129,7 +129,7 @@ You might be asking, how are we going to get the joystick commands? The next sec
 
 ## Joystick Package Installation & Usage
 
-This package is needed to interface a joystick to ROS. To install this package, simply execute the following command in the terminal.
+A package named ```joy``` is going to be used to interface a joystick to ROS. To install that package, simply execute the following command in the terminal.
 
 ```
 sudo apt-get install ros-kinetic-joy
