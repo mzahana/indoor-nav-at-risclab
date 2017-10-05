@@ -163,7 +163,7 @@ sudo chmod a+rw /dev/input/jsX
 ```
 * test the ```joy``` node. First, start ```roscore``` in a terminal. In another terminal,
 ```
-# set the device address
+# set the joystick device address
 rosparam set joy_node/dev "/dev/input/js0"
 # run the joy node
 rosrun joy joy_node
@@ -172,7 +172,7 @@ In another terminal, echo the ```joy``` topic and move the joystick to see the t
 ```
 rostopic echo /joy
 ```
-You should see an output similat to the following.
+You should see an output similar to the following.
 ```
 header: 
   seq: 699
