@@ -36,8 +36,8 @@ Open a new terminal window \(you can hit ctrl+alt+t to bring up one\). then, ple
 * [FastRTPS instalation](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#fastrtps-installation)
 * [jMAVSim](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#jmavsim)
 * Skip Gazebo section as it will be done in next step
-* [ROS/Gazebo](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#rosgazebo)
-* MAVROS installation from source. After you build MAVROS using `catkin build` , install the GeographicLib
+* [ROS/Gazebo](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#rosgazebo)(Kinetic). Skip this if already done.
+* [MAVROS installation](https://github.com/mavlink/mavros/blob/master/mavros/README.md#source-installation) from source. Don't forget to install GeographicLib before you build your ```catkin_ws``` install the GeographicLib
 
   ```
   cd ~/catkin_ws/src/mavros/mavros/scripts
@@ -48,9 +48,9 @@ Open a new terminal window \(you can hit ctrl+alt+t to bring up one\). then, ple
   cd ~/catkin_ws
   ```
 
-  Then, rebuild MAVROS, `catkin build`
+  Then, build your workspace using `catkin build`
 
-* [Nuttx based Hardware](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#nuttx-based-hardware). Go through all installation instructions. If you get some messages about not found directorires, ignore it.
+* [Nuttx based Hardware](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#nuttx-based-hardware). Go through all installation instructions. If you get some messages about not found directorires, ignore them!
 
 * Install QGroundcotrol from [here](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux). Use the AppImage option.
 
