@@ -37,15 +37,12 @@ Open a new terminal window \(you can hit ctrl+alt+t to bring up one\). then, ple
 * [jMAVSim](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#jmavsim)
 * Skip Gazebo section as it will be done in next step
 * [ROS/Gazebo](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#rosgazebo)(Kinetic). Skip this if already done.
-* [MAVROS installation](https://github.com/mavlink/mavros/blob/master/mavros/README.md#source-installation) from source. Don't forget to install GeographicLib before you build your ```catkin_ws``` install the GeographicLib
+* [MAVROS installation](https://github.com/mavlink/mavros/blob/master/mavros/README.md#source-installation) from source.
+
+**NOTE** in the step where you install the *geographiclib*, if you get an error like *cannot create directories*, try
 
   ```
-  cd ~/catkin_ws/src/mavros/mavros/scripts
-  ./install_geographiclib_datasets.sh
-  # or, if you get errors like, cannot create directories...., try,
-  # sudo ./install_geographiclib_datasets.sh
-  # then, go back to main folder
-  cd ~/catkin_ws
+  sudo ./src/mavros/mavros/scripts/install_geographiclib_datasets.sh
   ```
 
   Then, build your workspace using `catkin build`
