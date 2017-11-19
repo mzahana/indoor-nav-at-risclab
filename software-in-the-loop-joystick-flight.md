@@ -467,14 +467,8 @@ gedit joystick_flight.launch
 
 * **DONE**. Now, you should see a quadcopter in Gazebo flying at a fixed height and responding to your joystick commands.
 
+<div class="warning">
 **NOTE** always make sure that you have joystick permissions configured properly.
-
-# Test
-
-
-<div class="info">
-MATMAV is now open-source. The code can be found at
-https://github.com/mzahana/MATMAV
 </div>
 
 
