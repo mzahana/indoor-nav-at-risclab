@@ -30,7 +30,7 @@
   * [MOCAP Interface to ROS](mocap-interface-to-pixhawk-via-ros.md)
   * RISC Boot Camp
     * ROS and Gazebo Tutorials
-    * Quadrotor Assembly 
+    * [Quadrotor Assembly ](quadrotor-assembly.md)
     * [Software in the Loop Joystick Flight](software-in-the-loop-joystick-flight.md)
     * [Motion Capture setup and WiFi Communications](motion-capture-setup-and-wifi-communications.md)
     * Indoor Flight with Joystick
