@@ -472,8 +472,9 @@ gedit joystick_flight.launch
 # Test
 
 
-
-&lt;div class="info"&gt; info box &lt;/div&gt;
-
+<div class="info">
+MATMAV is now open-source. The code can be found at
+https://github.com/mzahana/MATMAV
+</div>
 
 
