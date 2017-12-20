@@ -1,3 +1,5 @@
+**Wrriten by Yimeng Lu**
+
 This is a tutorial for RISC lab boot camp. Please find all the components in RISC shoebox and toolbox prepared in Area C’s shelf.
 
 ## Basic principles {#Basic-principles}
