@@ -144,3 +144,5 @@ Note that the “front” direction of the quad needs to be decided. Take a look
 
 Check PWM min/max in parameters and make sure it’s associated with ESCs
 
+
+**Wrriten by Yimeng Lu**
