@@ -3,10 +3,10 @@ This is a tutorial for RISC lab boot camp. Please find all the components in RIS
 ## Basic principles {#Basic-principles}
 
 * Feel free to place the components anywhere but take care of wirings. Refer to quads we already have in the lab.
-* Carefully choose zipties, shrinking tubes, duct tapes or soldering for different situations. Generally, for fixing motor wires we use
+* Carefully choose zipties, shrinking tubes, duct tapes or soldering for different situations. Generally, for fixing motor wires we use 
   **zipties**
   . Shrinking tubes are for permanent connection between wires while soldering then together.
-* Pay attention to
+* Pay attention to 
   **calibration**
   , and prepare for 50% possibility to fail:-\)
 
@@ -16,11 +16,11 @@ This tutorial assumes you have the following skills:
 
 * ROS
 
-If not, please refer to a[online course](http://www.rsl.ethz.ch/education-students/lectures/ros.html)produced by ETHZ. And refer to[solutions to the exercises](https://github.com/luym11/ros_practise)on my github. \
+If not, please refer to a  [ o nline course](http://www.rsl.ethz.ch/education-students/lectures/ros.html) produced by ETHZ. And refer to [solutions to the exercises](https://github.com/luym11/ros_practise) on my github. 
 
 * Soldering
 
-If not, please refer to[basic skill video](https://www.youtube.com/watch?v=BLfXXRfRIzY).
+If not, please refer to [basic skill video](https://www.youtube.com/watch?v=BLfXXRfRIzY).
 
 * Basic knowledge about LiPo batteries \(Answer the following questions\)
 
@@ -122,7 +122,7 @@ Note that the “front” direction of the quad needs to be decided. Take a look
   * Click “Calibrate” to calibrate ESCs
 * Parameters tab
 
-  * General process is tuning P first then I and D at last for yaw, pitch and roll. Hold the quad in your hand to feel if it’s well tuned.
+  * General process is tuning P first then I and D at last for yaw, pitch and roll. Hold the quad in your hand to feel if it’s well tuned. 
     [Guide](https://docs.px4.io/en/advanced_config/pid_tuning_guide_multicopter.html)
   * You can plug other quads we have to your PC and export the parameters there and load them to your quad directly
 
